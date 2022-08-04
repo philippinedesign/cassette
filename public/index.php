@@ -24,20 +24,26 @@
   <script src="http://code.jquery.com/ui/1.13.0/jquery-ui.min.js" type="text/javascript"></script>
 
 
-  <div class="tape-wrapper" data-spreadsheet-api="https://sheet2api.com/v1/UnRe83FVRzuZ/philippinedesign-cassette-archive/main">
-    <div class='tape' data-id='{{id}}'>
-      <a href="./tapes/{{id}}.html">{{artist}} - {{title}}</a>
-      <div class="tape-cover"><img src=./tapes/tapes/{{id}}-cover.jpg></div>
+  <div class="tape-wrapper">
 
-      <div><b>Id:</b>{{id}}</div>
-      <div><b>Artist:</b>{{artist}}</div>
-      <div><b>Title:</b>{{title}}</div>
-      <div><b>Label:</b>{{label}}</div>
-      <div><b>Year:</b>{{year}}</div>
-      <div><b>Genre:</b>{{genre}}</div>
-      <div><b>Discogs:</b>{{discogs}}</div>
+    <div data-spreadsheet-api="https://sheet2api.com/v1/UnRe83FVRzuZ/philippinedesign-cassette-archive/main">
+      <div class='tape' data-id='{{id}}'>
+        <a href="./tapes/{{id}}.html">{{artist}} - {{title}}</a>
+        <div class="tape-cover"><img src=./tapes/tapes/{{id}}-cover.jpg></div>
+
+        <div><b>Id:</b>{{id}}</div>
+        <div><b>Artist:</b>{{artist}}</div>
+        <div><b>Title:</b>{{title}}</div>
+        <div><b>Label:</b>{{label}}</div>
+        <div><b>Year:</b>{{year}}</div>
+        <div><b>Genre:</b>{{genre}}</div>
+        <div><b>Discogs:</b>{{discogs}}</div>
+      </div>
     </div>
+
   </div>
+
+
 
   <script src="https://sheet2api.com/v1/template.js"></script>
 
