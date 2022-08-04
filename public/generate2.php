@@ -29,25 +29,29 @@
 
     <?php
 
-    $test = json_decode(file_get_contents('https://sheet2api.com/v1/UnRe83FVRzuZ/philippinedesign-cassette-archive'), true);
+//    $test = json_decode(file_get_contents('https://api.sheety.co/2508bf0c67d4acea71bf89a7498c2610/tape/main'), true);
+    $test = json_decode(file_get_contents('assets/tapes.json'), true);
     
-//     echo '<pre>'; print_r($test); echo '</pre>';
+     echo '<pre>'; print_r($test); echo '</pre>';
       
       $newcontent = file_get_contents("template.html");
   // writing index
        
     foreach($test as $i) {
       
+
       // test for jpg or jpeg
       echo "<div class='tape'>";
 
-    $img_url = "./tapes/".$i['id']."-cover.jpeg";
-      if ( !file_exists($img_url) ) {
-        $img_url = "./tapes/".$i['id']."-cover.jpg";
-      }
-  echo "<div class='tape-cover'><img class='tape-cover-img' src='".$img_url."'></div>";
+    $img_url = "./tapes/".$i["cid"]."-cover.jpeg";
       
-    echo "<a href='tapes/".$i['id'].".html'>".$i['id']."</a>"; echo "<br>";
+      if ( !file_exists($img_url)) {
+        $img_url = "./tapes/".$i["cid"]."-cover.jpg";
+      }
+      
+  echo "<div class='tape-cover'><img class='tape-cover-img' src='./tapes/".$img_url."'></div>";
+      
+    echo "<a href='./tapes/".$i['cid'].".html'>".$i['cid']."</a>"; echo "<br>";
       
     echo $i['artist']; echo "<br>";
     echo $i['title']; echo "<br>";
@@ -58,35 +62,42 @@
     $templated_images = "<img src='".$img_url."'> ";
       
 //    image: jcard
-     if( file_exists("./tapes/".$i['id']."-jcard.jpeg")){
-    $templated_images = $templated_images."<img src='./tapes/".$i["id"]."-jcard.jpeg'>";
+     if( file_exists("./tapes/".$i["cid"]."-jcard.jpeg")){
+    $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-jcard.jpeg'>";
+    }  elseif(file_exists("./tapes/".$i["cid"]."-jcard.jpg")){
+    $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-jcard.jpg'>";
     }
       
-      elseif(file_exists("./tapes/".$i['id']."-jcard.jpg")){
-    $templated_images = $templated_images."<img src='./tapes/".$i["id"]."-jcard.jpg'>";
-    }
+//    image: tape
+     if( file_exists("./tapes/".$i['cid']."-tape.jpeg")){
+ $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-tape.jpeg'>";
+ } elseif(file_exists("./tapes/".$i['cid']."-tape.jpg")){
+ $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-tape.jpg'>";
+ }
+
 
     // image: extras
     for ($x = 1; $x <= 5; $x++) { 
       
       // // // end loop if no more
-       if( !file_exists("./tapes/".$i["id"]."-".$x.".jpeg") && !file_exists("./tapes/".$i["id"]."-".$x.".jpg")){
+       if( !file_exists("./tapes/".$i["cid"]."-".$x.".jpeg") && !file_exists("./tapes/".$i["cid"]."-".$x.".jpg")){
           break;
         } 
       
-        if( file_exists("./tapes/".$i["id"]."-".$x.".jpeg")){
-           $templated_images = $templated_images."<img src='./tapes/".$i["id"]."-".$x.".jpeg'>";
-      } elseif (file_exists("./tapes/".$i["id"]."-".$x.".jpg")){
-      $templated_images = $templated_images."<img src='./tapes/".$i["id"]."-".$x.".jpg'>";
-      }
+        if( file_exists("./tapes/".$i["cid"]."-".$x.".jpeg")){
+           $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-".$x.".jpeg'>";
+      } elseif (file_exists("./tapes/".$i["cid"]."-".$x.".jpg")){
+      $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-".$x.".jpg'>";
+      } else{
+          break;
+        }
       
-//      echo $x;
 
       }
     // values for template
               
     $replace_array = array(
-        ':id' => $i['id'],
+        ':id' => $i['cid'],
         ':artist' => $i['artist'],
         ':title' => $i['title'],
         ':label' => $i['label'],
@@ -96,9 +107,9 @@
         ':images_html' => $templated_images
     );
       
-if (file_exists('tapes/'.$i['id'].'.html')) {
+if (file_exists('tapes/'.$i['cid'].'.html')) {
 
-$handle = fopen('tapes/'.$i['id'].'.html','w+');
+$handle = fopen('tapes/'.$i['cid'].'.html','w+');
 
 //$txt_top = file_get_contents("top.txt");
 

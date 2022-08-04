@@ -1,0 +1,262 @@
+{
+  "eraserheads-01": {
+    "cid": "eraserheads-01",
+    "artist": "Eraserheads",
+    "title": "Ultraelectromagneticpop!",
+    "label": "Musiko Records",
+    "year": 1993,
+    "decade": 1990,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/6156373-Eraserheads-Ultraelectromagneticpop"
+  },
+  "eraserheads-02": {
+    "cid": "eraserheads-02",
+    "artist": "Eraserheads",
+    "title": "Circus",
+    "label": "Musiko Records",
+    "year": 1994,
+    "decade": 1990,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/9688602-Eraserheads-Circus"
+  },
+  "eraserheads-03": {
+    "cid": "eraserheads-03",
+    "artist": "Eraserheads",
+    "title": "Cutterpillow",
+    "label": "BMG Records",
+    "year": 1995,
+    "decade": 1990,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/9688605-Eraserheads-Cutterpillow"
+  },
+  "eraserheads-04": {
+    "cid": "eraserheads-04",
+    "artist": "Eraserheads",
+    "title": "Sticker Happy",
+    "label": null,
+    "year": 1997,
+    "decade": 1990,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/5586584-Eraserheads-Sticker-Happy"
+  },
+  "eraserheads-05": {
+    "cid": "eraserheads-05",
+    "artist": "Eraserheads",
+    "title": "Natin99",
+    "label": null,
+    "year": 1999,
+    "decade": 1990,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/9688601-Eraserheads-Natin99"
+  },
+  "ls-01": {
+    "cid": "ls-01",
+    "artist": "Lea Salonga",
+    "title": "Lea Salonga",
+    "label": "Atlantic Records",
+    "year": 1993,
+    "decade": 1990,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/14315924-Lea-Salonga-LeaSalonga"
+  },
+  "ls-02": {
+    "cid": "ls-02",
+    "artist": "Lea Salonga",
+    "title": "By Heart",
+    "label": "Mister C",
+    "year": 2000,
+    "decade": 2000,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/17360449-Lea-Salonga-By-Heart-"
+  },
+  "ls-03": {
+    "cid": "ls-03",
+    "artist": "Lea Salonga",
+    "title": "In Love...",
+    "label": "Mister C",
+    "year": 1999,
+    "decade": 1990,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/17359780-Lea-Salonga-In-Love-"
+  },
+  "zsa-01": {
+    "cid": "zsa-01",
+    "artist": "Zsa Zsa Padilla",
+    "title": "Am I Your Kind Of Woman",
+    "label": "Jem",
+    "year": 1984,
+    "decade": 1980,
+    "genre": "Soul",
+    "discogs": "https://www.discogs.com/release/23504309-Zsa-Zsa-Padilla-Am-I-Your-Kind-Of-Woman"
+  },
+  "apo-01": {
+    "cid": "apo-01",
+    "artist": "Apo Hiking Society",
+    "title": "Apo Hiking Society",
+    "label": "WEA Records",
+    "year": 1980,
+    "decade": 1980,
+    "genre": "Soul",
+    "discogs": "https://www.discogs.com/release/12594917-Apo-Hiking-Society-Apo-Hiking-Society"
+  },
+  "apo-02": {
+    "cid": "apo-02",
+    "artist": "Apo Hiking Society",
+    "title": "True To My Music",
+    "label": "WEA Records",
+    "year": 1983,
+    "decade": 1980,
+    "genre": "Soul",
+    "discogs": "https://www.discogs.com/release/12594924-Apo-Hiking-Society-True-To-My-Music"
+  },
+  "jolina-01": {
+    "cid": "jolina-01",
+    "artist": "Jolina",
+    "title": "Jolina",
+    "label": "Star Records",
+    "year": 1999,
+    "decade": 1990,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/15996367-Jolina-Jolina"
+  },
+  "bass-01": {
+    "cid": "bass-01",
+    "artist": "Bass Rhyme",
+    "title": "The Bass Rhyme Posse",
+    "label": "Viva Records",
+    "year": 1991,
+    "decade": 1990,
+    "genre": "Hip Hop",
+    "discogs": "https://www.discogs.com/release/11959969-Bass-Rhyme-The-Bass-Rhyme-Posse"
+  },
+  "reg-01": {
+    "cid": "reg-01",
+    "artist": "Regine",
+    "title": "Regine",
+    "label": "Viva Records",
+    "year": 1987,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/5083770-Regine-Regine"
+  },
+  "kr-01": {
+    "cid": "kr-01",
+    "artist": "Kristina Valdez",
+    "title": "Kristina Valdez",
+    "label": "Viva Records",
+    "year": 1999,
+    "decade": 1990,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/12295217-Kristina-Valdez-Kristina-Valdez"
+  },
+  "love-01": {
+    "cid": "love-01",
+    "artist": "Compilation",
+    "title": "Tagalog Love Songs",
+    "label": "Golden Bridge",
+    "year": "Unknown",
+    "decade": "#VALUE!",
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/10066258-Various-Tagalog-Love-Songs"
+  },
+  "pilita-01": {
+    "cid": "pilita-01",
+    "artist": "Pilita Corrales",
+    "title": "Greatest Hits",
+    "label": "Plaka Pilipino",
+    "year": 1980,
+    "decade": 1980,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/8182838-Pilita-Corrales-Greatest-Hits"
+  },
+  "phron-01": {
+    "cid": "phron-01",
+    "artist": "Philippine Rondalla",
+    "title": "Philippine Folk Dances",
+    "label": "Plaka Pilipino",
+    "year": 1977,
+    "decade": 1970,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/22383730-Philippine-Rondalla-Philippine-Folk-Dances"
+  },
+  "larry-01": {
+    "cid": "larry-01",
+    "artist": "Larry Miranda",
+    "title": "Salamisim",
+    "label": "Plaka Pilipino",
+    "year": 1972,
+    "decade": 1970,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/19602229-Larry-Miranda-Salamisim"
+  },
+  "wuds-01": {
+    "cid": "wuds-01",
+    "artist": "Wuds",
+    "title": "Arms Talk",
+    "label": "Twisted Red Cross",
+    "year": 1985,
+    "decade": 1980,
+    "genre": "Punk",
+    "discogs": "https://www.discogs.com/release/3398236-Wuds-Arms-Talk"
+  },
+  "wuds-02": {
+    "cid": "wuds-02",
+    "artist": "Wuds",
+    "title": "Oplan Kahon",
+    "label": "Criminal Records",
+    "year": 1994,
+    "decade": 1990,
+    "genre": "Punk",
+    "discogs": "https://www.discogs.com/release/5062385-Wuds-Oplan-Kahon"
+  },
+  "tonedef-01": {
+    "cid": "tonedef-01",
+    "artist": "Various",
+    "title": "Tone Def Volume 2 - Rock Revolution",
+    "label": "Tone Def Philippines",
+    "year": 1998,
+    "decade": 1990,
+    "genre": "Punk",
+    "discogs": "https://www.discogs.com/release/7385973-Various-Tone-Def-Volume-2-Rock-Revolution"
+  },
+  "cherries-01": {
+    "cid": "cherries-01",
+    "artist": "Cherries",
+    "title": "A Taste of Love",
+    "label": "Viva Records",
+    "year": 1997,
+    "decade": 1990,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/12295308-Cherries-A-Taste-Of-Love"
+  },
+  "dja-01": {
+    "cid": "dja-01",
+    "artist": "DJ Alvaro",
+    "title": "Bagong Babae",
+    "label": "Viva Records",
+    "year": 1995,
+    "decade": 1990,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/21705859-DJ-Alvaro-Bagong-Babae"
+  },
+  "jesse-01": {
+    "cid": "jesse-01",
+    "artist": "Jesse Zaragoza",
+    "title": "The Best of Jesse Zaragoza",
+    "label": "OctoArts EMI",
+    "year": 2000,
+    "decade": 2000,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/15476709-Jessa-Zaragoza-The-Best-Of-Jessa-Zaragoza"
+  },
+  "sunshine-01": {
+    "cid": "sunshine-01",
+    "artist": "Various",
+    "title": "The Best of Manila Sound",
+    "label": "Sunshine",
+    "year": 1985,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/20660014-Various-The-Best-of-Manila-Sound"
+  }
+}

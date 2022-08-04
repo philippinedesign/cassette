@@ -1,7 +1,7 @@
 .tape-wrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -23,6 +23,21 @@
 .tape-cover img {
   max-width: 100%;
   max-height: 100%;
+  transform: scale(1.1);
+}
+
+#index .tape {
+  opacity: 0.85;
+}
+#index .tape:hover {
+  transform: translateY(-6px);
+  filter: saturate(110%);
+  opacity: 1;
+}
+
+input:hover,
+label:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=s.css.map */
