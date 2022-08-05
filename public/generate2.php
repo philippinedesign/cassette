@@ -18,7 +18,6 @@
 
 <body>
 
-  test testdddddgasdgasdg
 
   <h1>GENERATE</h1>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
@@ -27,11 +26,10 @@
   <div class="tape-wrapper">
 
     <?php
-
-//    $test = json_decode(file_get_contents('https://api.sheety.co/2508bf0c67d4acea71bf89a7498c2610/tape/main'), true);
+    
     $test = json_decode(file_get_contents('assets/tapes.json'), true);
     
-     echo '<pre>'; print_r($test); echo '</pre>';
+//     echo '<pre>'; print_r($test); echo '</pre>';
       
       $newcontent = file_get_contents("template.html");
   // writing index
@@ -78,7 +76,7 @@
     // image: extras
     for ($x = 1; $x <= 5; $x++) { 
       
-      // // // end loop if no more
+        // end loop if no more
        if( !file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpeg") && !file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpg")){
           break;
         } 
@@ -90,8 +88,6 @@
       } else{
           break;
         }
-      
-
       }
     // values for template
               
@@ -106,7 +102,7 @@
         ':images_html' => $templated_images
     );
       
-if (file_exists('tapes/'.$i['cid'].'.html')) {
+if (!file_exists('tapes/'.$i['cid'].'.html')) {
 $handle = fopen('tapes/'.$i['cid'].'.html','w+');
 
 $templated_html = strtr($newcontent, $replace_array);

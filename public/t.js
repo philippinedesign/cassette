@@ -42,13 +42,13 @@ showIndex.output = async (element) => {
 
 showIndex.render = async () => {
 
-  console.log("rendering");
+  //  console.log("rendering");
 
   const elements = document.querySelectorAll('[data-spreadsheet-api]');
 
   const promises = [];
 
-  console.log("elements.length: " + elements.length);
+  //  console.log("elements.length: " + elements.length);
   for (let i = 0; i < elements.length; i++) {
     //    console.log(elements);
     const element = elements[i];
@@ -63,6 +63,6 @@ showIndex.render = async () => {
 $(function () {
 
   showIndex.render();
-  console.log("done");
+  //  console.log("done");
 
 });

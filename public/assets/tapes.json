@@ -569,8 +569,8 @@
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/23893184-Jamie-Rivera-All-Out-For-Love"
   },
-  "fascist": {
-    "cid": "fascist",
+  "diktador": {
+    "cid": "diktador",
     "artist": "Ferdinand E. Marcos",
     "title": "Panunumpa Ng Pangulo Sa Bagong Republika Ng Pilipinas (Hunyo 30 1981)",
     "label": "Villar",
@@ -628,5 +628,15 @@
     "decade": 1980,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/13863808-Eddie-Peregrina-The-Blinkers-What-Am-I-Living-For"
+  },
+  "jollibee-01": {
+    "cid": "jollibee-01",
+    "artist": "Various",
+    "title": "Jollibee Character Songs Volume 2",
+    "label": "WEA Records",
+    "year": 1984,
+    "decade": 1980,
+    "genre": "Children's",
+    "discogs": null
   }
 }

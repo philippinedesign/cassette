@@ -16,13 +16,13 @@
 <body>
 
 
-  <h1>Philippine Cassette Archive</h1>
-  <p>Sharing Filipino tape culture & artifacts.</p>
+  <div id="title-about">
+    <h1>Philippine Cassette Archive</h1>
+    <p>Sharing Filipino tape culture & artifacts.</p>
+  </div>
 
-  <p>A subdivision of the Philippine.design project.</p>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" type="text/javascript"></script>
-
 
   <div id="header">
     <div class="control-decade">
@@ -43,19 +43,19 @@
   </div>
 
 
-  <div id="index" class="tape-wrapper" data-spreadsheet-api="./assets/tapes.json">
-    <div class='tape' data-id='{{cid}}' data-decade='{{decade}}'>
-      <a href="./tapes/{{cid}}.html">
-        <div class="tape-cover"><img src=./tapes/tapes/{{cid}}-cover.jpg></div>
-        <!--
-      </a><div><b>Id:</b>{{cid}}</div>
-<div><b>Artist:</b>{{artist}}</div>
-<div><b>Title:</b>{{title}}</div>
-<div><b>Label:</b>{{label}}</div>
-<div><b>Year:</b>{{year}}</div>
-<div><b>Genre:</b>{{genre}}</div>
-<div><b>Discogs:</b>{{discogs}}</div>
--->
+  <div id="index">
+
+    <div class="tape-only" data-spreadsheet-api="./assets/tapes.json">
+      <a href="./tapes/{{cid}}.html" data-id='{{cid}}' data-decade='{{decade}}'>
+        <div class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}"><img src=./tapes/tapes/{{cid}}-cover.jpg></div>
+      </a>
+    </div>
+
+    <div class="tape-wrapper" data-spreadsheet-api="./assets/tapes.json">
+      <div class='tape' data-id='{{cid}}' data-decade='{{decade}}'>
+        <!--          <div class="tape-cover"><img src=./tapes/tapes/{{cid}}-cover.jpg></div>-->
+        {{artist}} - {{title}}
+      </div>
     </div>
   </div>
 
@@ -64,11 +64,16 @@
 
   <script src="t.js" type="text/javascript"></script>
   <script type="text/javascript">
-    console.log("hi");
-    //      alert("HIII");
+    // tooltips
+    $(function() {
+      $(document).tooltip({
+        track: true,
+        tooltipClass: "tooltip"
+      });
+    });
 
+    // filters
     $(".control-decade input").change(function() {
-
       let w = $('.control-decade input[name="decade"]:checked').val();
       console.log(w);
 
@@ -79,9 +84,27 @@
         $("#index .tape:not([data-decade='" + w + "'])").hide();
         $("#index .tape[data-decade='" + w + "']").show();
       }
-
-
     })
+
+    function scrolltoTape(what) {
+
+      $f = "a[data-id='" + what + "']";
+
+      $(".tape-only").animate({
+        scrollLeft: $($f).offset().left - 100
+      }, 900);
+
+      $(".tape-only a").css("opacity", 0.8).css("filter", "grayscale(80%)");
+      $($f).css("opacity", 1).css("filter", "grayscale(0)");
+
+    }
+
+    $(".tape-wrapper").on("click", "div", function(event) {
+      //      alert("lol");
+      let go = $(this).attr("data-id")
+      ''
+      scrolltoTape(go);
+    });
 
   </script>
 

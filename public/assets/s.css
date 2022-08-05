@@ -1,14 +1,41 @@
+.tooltip {
+  background: #fff;
+  border: 1px solid #000;
+  max-width: 190px;
+  font-size: 0.8em;
+  padding: 0.25em;
+  z-index: 999;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#title-about {
+  border-bottom: 1px solid #000;
+}
+#title-about h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+#title-about p {
+  margin: 0;
+  padding: 0;
+}
+
 .tape-wrapper {
-  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .tape {
-  display: block;
-  margin: 0.5em;
+  margin: 0.25em;
   max-width: 250px;
+  max-height: auto;
   overflow: hidden;
   text-align: center;
 }
@@ -19,25 +46,116 @@
   width: 120px;
   height: 188px;
   margin: 0 auto;
+  object-fit: cover;
+  overflow: hidden;
 }
 .tape-cover img {
-  max-width: 100%;
-  max-height: 100%;
-  transform: scale(1.1);
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transform: scale(1);
 }
 
-#index .tape {
-  opacity: 0.85;
+#index {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: red;
 }
-#index .tape:hover {
+#index .tape-wrapper {
+  overflow-y: scroll;
+}
+#index .tape-only {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 100vw;
+  height: 60vh;
+  background: yellow;
+}
+#index .tape-only {
+  padding: 0.5em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  align-items: middle;
+  align-content: middle;
+  align-self: middle;
+  max-height: 470px;
+}
+#index .tape-only a:hover {
   transform: translateY(-6px);
   filter: saturate(110%);
   opacity: 1;
+}
+#index .tape-only a {
+  display: inline-block;
+  height: auto;
+  margin: auto 0.5em;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+#index .tape-only .tape-cover {
+  display: inline-block;
+  width: 136px;
+  height: 214px;
+}
+#index .tape-wrapper {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  vertical-align: text-top;
+}
+#index .tape-wrapper .tape {
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+  min-width: 250px;
+  font-size: 0.8em;
+  font-family: "Arial";
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#index .tape-wrapper .tape:hover {
+  cursor: pointer;
 }
 
 input:hover,
 label:hover {
   cursor: pointer;
+}
+
+.ui-tooltip {
+  padding: 8px;
+  position: absolute;
+  z-index: 9999;
+  white-space: pre-line;
+}
+
+body .ui-tooltip {
+  border-width: 2px;
+}
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /*# sourceMappingURL=s.css.map */
