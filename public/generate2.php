@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <!--    <link rel="stylesheet" href="./stylesheet.css" type="text/css" />-->
   <style type="text/css">
     .body {
       width: auto;
@@ -21,7 +20,7 @@
 
   test testdddddgasdgasdg
 
-  <h1>test</h1>
+  <h1>GENERATE</h1>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" type="text/javascript"></script>
 
@@ -62,16 +61,16 @@
     $templated_images = "<img src='".$img_url."'> ";
       
 //    image: jcard
-     if( file_exists("./tapes/".$i["cid"]."-jcard.jpeg")){
+     if( file_exists("./tapes/tapes/".$i["cid"]."-jcard.jpeg")){
     $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-jcard.jpeg'>";
-    }  elseif(file_exists("./tapes/".$i["cid"]."-jcard.jpg")){
+    }  elseif(file_exists("./tapes/tapes/".$i["cid"]."-jcard.jpg")){
     $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-jcard.jpg'>";
     }
       
 //    image: tape
-     if( file_exists("./tapes/".$i['cid']."-tape.jpeg")){
+     if( file_exists("./tapes/tapes/".$i['cid']."-tape.jpeg")){
  $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-tape.jpeg'>";
- } elseif(file_exists("./tapes/".$i['cid']."-tape.jpg")){
+ } elseif(file_exists("./tapes/tapes/".$i['cid']."-tape.jpg")){
  $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-tape.jpg'>";
  }
 
@@ -80,13 +79,13 @@
     for ($x = 1; $x <= 5; $x++) { 
       
       // // // end loop if no more
-       if( !file_exists("./tapes/".$i["cid"]."-".$x.".jpeg") && !file_exists("./tapes/".$i["cid"]."-".$x.".jpg")){
+       if( !file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpeg") && !file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpg")){
           break;
         } 
       
-        if( file_exists("./tapes/".$i["cid"]."-".$x.".jpeg")){
+        if( file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpeg")){
            $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-".$x.".jpeg'>";
-      } elseif (file_exists("./tapes/".$i["cid"]."-".$x.".jpg")){
+      } elseif (file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpg")){
       $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-".$x.".jpg'>";
       } else{
           break;
@@ -108,34 +107,18 @@
     );
       
 if (file_exists('tapes/'.$i['cid'].'.html')) {
-
 $handle = fopen('tapes/'.$i['cid'].'.html','w+');
-
-//$txt_top = file_get_contents("top.txt");
-
-//$templated_html = $txt_top."<img src='".$img_url."'><strong>".$i['title']." - ".$i['artist']." (".$i['year'].")</strong><br><br>";
 
 $templated_html = strtr($newcontent, $replace_array);
 
 fwrite($handle, $templated_html); fclose($handle); }
-
 }
       
     ?>
 
   </div>
 
-  <script src="https://sheet2api.com/v1/template.js"></script>
 
-
-  <script src="t.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    console.log("hi");
-    //      alert("HIII");
-
-  </script>
-
-  <!--    <script src"t.js" type="text/javascript"></script>-->
 </body>
 
 </html>

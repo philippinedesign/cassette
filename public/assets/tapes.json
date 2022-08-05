@@ -33,7 +33,7 @@
     "cid": "eraserheads-04",
     "artist": "Eraserheads",
     "title": "Sticker Happy",
-    "label": null,
+    "label": "BMG Records",
     "year": 1997,
     "decade": 1990,
     "genre": "Rock",
@@ -43,7 +43,7 @@
     "cid": "eraserheads-05",
     "artist": "Eraserheads",
     "title": "Natin99",
-    "label": null,
+    "label": "BMG Records",
     "year": 1999,
     "decade": 1990,
     "genre": "Rock",
@@ -155,7 +155,7 @@
     "title": "Tagalog Love Songs",
     "label": "Golden Bridge",
     "year": "Unknown",
-    "decade": "#VALUE!",
+    "decade": null,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/10066258-Various-Tagalog-Love-Songs"
   },
@@ -168,6 +168,16 @@
     "decade": 1980,
     "genre": "Folk",
     "discogs": "https://www.discogs.com/release/8182838-Pilita-Corrales-Greatest-Hits"
+  },
+  "pilita-02": {
+    "cid": "pilita-02",
+    "artist": "Pilita Corrales",
+    "title": "Pilita Sings Love Themes From Viva Films",
+    "label": null,
+    "year": 1983,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/20160877-Pilita-Pilita-Sings-Love-Themes-From-Viva-Films"
   },
   "phron-01": {
     "cid": "phron-01",
@@ -243,7 +253,7 @@
     "cid": "jesse-01",
     "artist": "Jesse Zaragoza",
     "title": "The Best of Jesse Zaragoza",
-    "label": "OctoArts EMI",
+    "label": "OctoArts",
     "year": 2000,
     "decade": 2000,
     "genre": "Pop",
@@ -258,5 +268,365 @@
     "decade": 1980,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/20660014-Various-The-Best-of-Manila-Sound"
+  },
+  "ric-01": {
+    "cid": "ric-01",
+    "artist": "Ric Manrique Jr.",
+    "title": "Awit at Pag-Ibig",
+    "label": "Plaka Pilipino",
+    "year": 1973,
+    "decade": 1970,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/19602694-Ric-Manrique-Jr-Awit-At-Pag-Ibig"
+  },
+  "fre-01": {
+    "cid": "fre-01",
+    "artist": "Freddie Aguilar",
+    "title": "Greatest Hits",
+    "label": "Ugat",
+    "year": 1979,
+    "decade": 1970,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/18768613-Freddie-Aguilar-Greatest-Hits"
+  },
+  "fre-02": {
+    "cid": "fre-02",
+    "artist": "Freddie Aguilar",
+    "title": "Katarungan",
+    "label": "Ivory Records",
+    "year": 1988,
+    "decade": 1980,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/13881532-Freddie-Aguilar-Katarungan"
+  },
+  "cely-01": {
+    "cid": "cely-01",
+    "artist": "Cely Bautista",
+    "title": "Walang Kapantay",
+    "label": "Mango Records",
+    "year": 1977,
+    "decade": 1970,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/19266904-Cely-Bautista-Walang-Kapantay"
+  },
+  "wally-01": {
+    "cid": "wally-01",
+    "artist": "Wally Gonzalez",
+    "title": "Tunog Pinoy",
+    "label": "Blackgold",
+    "year": 1977,
+    "decade": 1970,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/13437892-Wally-Gonzalez-Tunog-Pinoy"
+  },
+  "sharon-01": {
+    "cid": "sharon-01",
+    "artist": "Sharon Cuneta",
+    "title": "Sharon",
+    "label": "Sunshine",
+    "year": 1979,
+    "decade": 1970,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/9865597-Sharon-Cuneta-Sharon"
+  },
+  "sharon-02": {
+    "cid": "sharon-02",
+    "artist": "Sharon Cuneta",
+    "title": "For Broken Hearts Only",
+    "label": "Viva Records",
+    "year": 1990,
+    "decade": 1990,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/6222293-Sharon-For-Broken-Hearts-Only"
+  },
+  "sharon-03": {
+    "cid": "sharon-03",
+    "artist": "Sharon Cuneta",
+    "title": "The Very Best of Sharon",
+    "label": "Sunshine",
+    "year": 1983,
+    "decade": 1980,
+    "genre": "Soul",
+    "discogs": "https://www.discogs.com/release/13854617-Sharon-The-Very-Best-Of-Sharon"
+  },
+  "juan-01": {
+    "cid": "juan-01",
+    "artist": "Juan De La Cruz Band",
+    "title": "Live & In Concert",
+    "label": "Sunshine",
+    "year": 1978,
+    "decade": 1970,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/4597598-Juan-De-La-Cruz-Band-Live-In-Concert"
+  },
+  "juan-02": {
+    "cid": "juan-02",
+    "artist": "Juan De La Cruz Band",
+    "title": "Kahit Anong Mangyari",
+    "label": "Blackgold",
+    "year": 1973,
+    "decade": 1970,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/4597629-Juan-De-La-Cruz-Band-Kahit-Anong-Mangyari"
+  },
+  "asin-01": {
+    "cid": "asin-01",
+    "artist": "Asin",
+    "title": "Himig Kayumanggi",
+    "label": "Sunshine",
+    "year": 1987,
+    "decade": 1980,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/13864058-Asin-Himig-Kayumanggi"
+  },
+  "asin-02": {
+    "cid": "asin-02",
+    "artist": "Asin",
+    "title": "Mga Awitin Ng Bayan Kong Pilipinas",
+    "label": "Ivory Records",
+    "year": 1984,
+    "decade": 1980,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/14665638-Asin-Mga-Awitin-Ng-Bayan-Kong-Pilipinas"
+  },
+  "cel-01": {
+    "cid": "cel-01",
+    "artist": "Celeste Legaspi",
+    "title": "Ako At Si Celeste",
+    "label": "Blackgold",
+    "year": 1977,
+    "decade": 1970,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/20137693-Celeste-Legaspi-Ako-At-Si-Celeste"
+  },
+  "kuh-01": {
+    "cid": "kuh-01",
+    "artist": "Kuh Ledesma",
+    "title": "Kuh's Magic",
+    "label": "Blackgold",
+    "year": 1981,
+    "decade": 1980,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/18298153-Kuh-Ledesma-Kuhs-Magic"
+  },
+  "kuh-02": {
+    "cid": "kuh-02",
+    "artist": "Kuh Ledesma",
+    "title": "Ako Ay Pilipino",
+    "label": "Blackgold",
+    "year": 1983,
+    "decade": 1980,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/13842374-Kuh-Ledesma-Ako-Ay-Pilipino"
+  },
+  "kuh-03": {
+    "cid": "kuh-03",
+    "artist": "Kuh Ledesma",
+    "title": "I Think I'm In Love",
+    "label": "Blackgold",
+    "year": 1984,
+    "decade": 1980,
+    "genre": "Jazz",
+    "discogs": "https://www.discogs.com/release/8324757-Kuh-Ledesma-I-Think-Im-In-Love"
+  },
+  "kuh-04": {
+    "cid": "kuh-04",
+    "artist": "Kuh Ledesma",
+    "title": "Feeling",
+    "label": "Blackgold",
+    "year": 1987,
+    "decade": 1980,
+    "genre": "Jazz",
+    "discogs": "https://www.discogs.com/release/23892968-Kuh-Ledesma-Feeling"
+  },
+  "rey-01": {
+    "cid": "rey-01",
+    "artist": "Rey Valera",
+    "title": "Hello",
+    "label": "Blackgold",
+    "year": 1982,
+    "decade": 1980,
+    "genre": "Funk",
+    "discogs": "https://www.discogs.com/release/14554633-Rey-Valera-Hello"
+  },
+  "coritha-01": {
+    "cid": "coritha-01",
+    "artist": "Coritha",
+    "title": "Coritha",
+    "label": "Blackgold",
+    "year": 1980,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/12707303-Coritha-Coritha"
+  },
+  "rico-01": {
+    "cid": "rico-01",
+    "artist": "Rico J. Puno",
+    "title": "Tatak",
+    "label": "Sunshine",
+    "year": 1978,
+    "decade": 1970,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/13854631-Rico-J-Puno-Tatak"
+  },
+  "timmy-01": {
+    "cid": "timmy-01",
+    "artist": "Timmy Cruz",
+    "title": "Take Care",
+    "label": "Blackgold",
+    "year": 1988,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/19520326-Timmy-Cruz-Take-Care"
+  },
+  "bong-01": {
+    "cid": "bong-01",
+    "artist": "Bong Peñera",
+    "title": "Bong Peñera",
+    "label": "Blackgold",
+    "year": 1978,
+    "decade": 1970,
+    "genre": "Jazz",
+    "discogs": "https://www.discogs.com/release/11691616-Bong-Pe%C3%B1era-Bong-Penera"
+  },
+  "basil-01": {
+    "cid": "basil-01",
+    "artist": "Basil Valdez",
+    "title": "Corner Of The Sky",
+    "label": "Blackgold",
+    "year": 1985,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/19428565-Basil-Valdez-Corner-Of-The-Sky"
+  },
+  "hit-01": {
+    "cid": "hit-01",
+    "artist": "Various",
+    "title": "Hitmakers",
+    "label": "Blackgold",
+    "year": 1982,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/23080484-Various-Hitmakers"
+  },
+  "hit-02": {
+    "cid": "hit-02",
+    "artist": "Various",
+    "title": "Hitmakers 2",
+    "label": "Blackgold",
+    "year": 1982,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/23080529-Various-Hitmakers-2"
+  },
+  "tvj-01": {
+    "cid": "tvj-01",
+    "artist": "Tito, Vic & Joey",
+    "title": "The Best Of Tito, Vic & Joey Vol. 1",
+    "label": "Sunshine",
+    "year": 1970,
+    "decade": 1970,
+    "genre": "Rock",
+    "discogs": "https://www.discogs.com/release/23157392-Tito-Vic-Joey-The-Best-Of-Tito-Vic-Joey-Vol-1"
+  },
+  "5p-01": {
+    "cid": "5p-01",
+    "artist": "Various",
+    "title": "The Fifth Metro Manila Popular Music Festival",
+    "label": "Sunshine",
+    "year": 1982,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/23316059-Various-The-Fifth-Metro-Manila-Popular-Music-Festival"
+  },
+  "max-01": {
+    "cid": "max-01",
+    "artist": "Max Surban",
+    "title": "Mad Max Kuno",
+    "label": "Sunshine",
+    "year": 1984,
+    "decade": 1980,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/21460624-Max-Surban-Mad-Max-Kuno"
+  },
+  "mrt-01": {
+    "cid": "mrt-01",
+    "artist": "Martin Nievera",
+    "title": "The Best Gift",
+    "label": "Sunshine",
+    "year": 1984,
+    "decade": 1980,
+    "genre": "Funk",
+    "discogs": "https://www.discogs.com/release/12594959-Martin-Nievera-The-Best-Gift"
+  },
+  "jam-01": {
+    "cid": "jam-01",
+    "artist": "Jamie Rivera",
+    "title": "All Out For Love",
+    "label": "OctoArts",
+    "year": 1988,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/23893184-Jamie-Rivera-All-Out-For-Love"
+  },
+  "fascist": {
+    "cid": "fascist",
+    "artist": "Ferdinand E. Marcos",
+    "title": "Panunumpa Ng Pangulo Sa Bagong Republika Ng Pilipinas (Hunyo 30 1981)",
+    "label": "Villar",
+    "year": 1981,
+    "decade": 1980,
+    "genre": "Propaganda",
+    "discogs": "https://www.discogs.com/release/23409341-Ferdinand-E-Marcos-Panunumpa-Ng-Pangulo-Sa-Bagong-Republika-Ng-Pilipinas-Hunyo-30-1981"
+  },
+  "jnt-01": {
+    "cid": "jnt-01",
+    "artist": "Janet Basco",
+    "title": "Janet Basco",
+    "label": "WEA",
+    "year": 1983,
+    "decade": 1980,
+    "genre": "Funk",
+    "discogs": "https://www.discogs.com/release/23080094-Janet-Basco-Janet-Basco"
+  },
+  "ray-01": {
+    "cid": "ray-01",
+    "artist": "Ray-An Fuentes",
+    "title": "Alive Again",
+    "label": "316 Records",
+    "year": 1986,
+    "decade": 1980,
+    "genre": "Funk",
+    "discogs": "https://www.discogs.com/release/22938431-Ray-An-Fuentes-Alive-Againn"
+  },
+  "psko": {
+    "cid": "psko",
+    "artist": "The Las Piñas Boys Choir, Vince Gomez, Manuel Maramba",
+    "title": "Pasko Sa Las Piñas - A Philippine Christmas At The Las Piñas Bamboo Organ",
+    "label": "Bamboo Organ Foundation",
+    "year": 1982,
+    "decade": 1980,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/21635437-The-Las-Pi%C3%B1as-Boys-Choir-Vince-Gomez-2-Manuel-Maramba-Pasko-Sa-Las-Pi%C3%B1as-A-Philippine-Christmas-At"
+  },
+  "garyv-01": {
+    "cid": "garyv-01",
+    "artist": "Gary Valenciano",
+    "title": "Gary......Next",
+    "label": "Blackgold",
+    "year": 1985,
+    "decade": 1980,
+    "genre": "Electronic",
+    "discogs": "https://www.discogs.com/release/14856756-Gary-Valenciano-GaryNext"
+  },
+  "ed-01": {
+    "cid": "ed-01",
+    "artist": "Eddie Peregrina & The Blinkers",
+    "title": "What Am I Living For",
+    "label": "Vicor",
+    "year": 1988,
+    "decade": 1980,
+    "genre": "Pop",
+    "discogs": "https://www.discogs.com/release/13863808-Eddie-Peregrina-The-Blinkers-What-Am-I-Living-For"
   }
 }

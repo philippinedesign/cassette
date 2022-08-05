@@ -1,3 +1,5 @@
 
 .DS_Store
 *.map
+public/tapes/*.jpg
+public/tapes/*.jpeg
