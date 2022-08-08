@@ -63,13 +63,8 @@ $(function () {
 
 
   // not the first time?
-
-  //  var hasVisited = window.localStorage.getItem('washere');
-  //
-  //  console.log(hasVisited);
-
-  if (localStorage.getItem('washere') === 'true') {
-    $("#loader").fadeOut(500);
+  if (window.localStorage.getItem('washere') === 'true') {
+    $("#loader").delay(300).fadeOut(300);
     //    console.log("been here");
     console.log("o.o");
 

@@ -58,7 +58,7 @@ body {
     opacity: 0;
     animation: seconds_logo .5s forwards;
     animation-iteration-count: 1;
-    animation-delay: 0.3s;
+    animation-delay: 0.2s;
 
     img {
       margin: 0 auto;
@@ -122,8 +122,8 @@ body {
 // ABOUT
 #about {
   position: absolute;
-  height: calc(100vh - 100px);
-  top: 100px;
+  height: calc(100vh - 80px);
+  bottom: 0;
   width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -517,7 +517,7 @@ $height_tapes: 77vh;
     height: 100%;
     margin: 5vh 0;
     padding: 0;
-    padding-top: 90px;
+    padding-top: 50px;
     -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
     display: none;
@@ -545,7 +545,7 @@ $height_tapes: 77vh;
     }
 
     @media only screen and (max-width: 800px) {
-      padding-top: 70px;
+      padding-top: 50px;
     }
 
 

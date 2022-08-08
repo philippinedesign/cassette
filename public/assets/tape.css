@@ -226,7 +226,7 @@ main {
 
 #cover {
   padding: 0 2.5vw;
-  width: 380px;
+  width: 520px;
   text-align: left;
   padding-top: 80px;
 }
@@ -234,6 +234,7 @@ main {
   padding: 0;
   margin: 0;
   height: auto;
+  width: 100%;
   max-width: 95%;
   object-fit: cover;
 }
@@ -337,6 +338,8 @@ main {
   justify-content: center;
   vertical-align: text-top;
   padding-top: 0.5em;
+  border-top: 1px solid #000;
+  margin-top: 1em;
 }
 #content .images img {
   vertical-align: text-top;
@@ -346,7 +349,7 @@ main {
 @media only screen and (max-width: 800px) {
   #content .images {
     border-top: 1px solid #000;
-    margin-top: 1em;
+    margin-top: 0.5em;
     flex-wrap: nowrap;
     white-space: nowrap;
     text-align: center;
@@ -356,12 +359,13 @@ main {
     -webkit-overflow-scrolling: touch;
     padding-top: 0.15em;
     justify-content: flex-start;
+    box-sizing: border-box;
   }
   #content .images img {
     margin: auto;
     max-width: none;
     height: auto;
-    max-height: calc(100vh - 66vh - 60px);
+    max-height: calc(100vh - 66vh - 90px);
   }
 }
 

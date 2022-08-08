@@ -14,15 +14,15 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://philippine.design/tapes">
-  <meta property="og" content="The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
-  <meta property="og:description" content="The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta property="og:url" content="https://philippinecassettearchive.com/">
+  <meta property="og" content="The Philippine Cassette Archive celebrates & preserves Pinoy tape culture.">
+  <meta property="og:description" content="The Philippine Cassette Archive celebrates & preserves Pinoy tape culture.">
   <meta property="og:image" content="https://philippine.design/tapes/preview.png">
 
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://philippine.design/tapes">
+  <meta property="twitter:url" content="https://philippinecassettearchive.com/">
   <meta property="twitter:title" content="Philippine Cassette Archive">
   <meta property="twitter:description" content="Archiving & celebrating Pinoy cassette culture.">
   <meta property="twitter:image" content="https://philippine.design/tapes/preview.png">
@@ -111,7 +111,7 @@
     <div id="index">
       <div class="tape-wrapper-smol">
         <div class="tape-only" data-spreadsheet-api="./assets/tapes.json">
-          <a href="./tapes/{{cid}}.html" data-id='{{cid}}' data-decade='{{decade}}' data-genre='{{genre}}' class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}">
+          <a href="./tapes/{{cid}}" data-id='{{cid}}' data-decade='{{decade}}' data-genre='{{genre}}' class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}">
             <div class="_year">{{year}}</div>
             <img src=./tapes/tapes/{{cid}}-cover.jpg>
             <div class="info">
