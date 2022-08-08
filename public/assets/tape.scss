@@ -6,6 +6,16 @@
 $white: #EEEDE9;
 
 
+.tooltip {
+  background: #fff;
+  border: 0;
+  max-width: 190px;
+  font-size: .8em;
+  padding: .25em;
+  z-index: 99999999;
+  pointer-events: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +27,43 @@ body {
   @media only screen and (max-width: 800px) {
     font-size: .8em;
     overflow-y: hidden;
+  }
+
+}
+
+
+// ABOUT
+#about {
+  position: absolute;
+  height: calc(100vh - 50px);
+  top: 50px;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 2em;
+  padding-top: 0;
+  background: linear-gradient(180deg, rgba(238, 237, 233, 1) 0%, rgba(238, 237, 233, 1) 87%, rgba(238, 237, 233, 1) 100%);
+
+  z-index: 99999;
+  display: none;
+
+  h1 {
+    font-size: 1.25em;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 700px;
+  }
+
+  a {
+    color: #000;
+    opacity: 0.5;
+  }
+
+  a:hover {
+    opacity: 1;
   }
 
 }
@@ -48,7 +95,7 @@ body {
     padding: 0 .25em;
     margin: 0;
     font-size: .9em;
-    cursor: pointer;
+    cursor: ne-resize;
 
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
@@ -61,6 +108,7 @@ body {
     align-items: flex-start;
     align-content: flex-start;
     flex-direction: column;
+    cursor: ne-resize;
   }
 
   .info:hover > button:not(:hover) {
@@ -89,7 +137,7 @@ body {
     padding: 0;
     font-weight: normal;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: w-resize;
   }
 }
 
@@ -132,6 +180,7 @@ main {
 
   @media only screen and (max-width: 800px) {
 
+    margin-top: -1em;
     width: 100%;
     text-align: center;
     height: 70vh;
@@ -152,7 +201,7 @@ main {
   padding-bottom: 5vh;
 
   @media only screen and (max-width: 800px) {
-    padding: 0 2.5vw;
+    padding: 1em 2.5vw;
     text-align: center;
     width: 100%;
     height: auto;
@@ -196,7 +245,7 @@ main {
   }
 
   ._links {
-    padding: .5em 0;
+    padding: .25em 0;
 
     a {
       text-decoration: none;
@@ -231,18 +280,18 @@ main {
       max-width: 50%;
     }
 
-
     @media only screen and (max-width: 800px) {
 
       overflow-x: scroll;
       flex-wrap: nowrap;
-      justify-content: flex-start;
       -webkit-overflow-scrolling: touch;
+      padding-top: 0;
+      justify-content: center;
 
       img {
         max-width: none;
         height: auto;
-        max-height: calc(100vh - 70vh - 50px);
+        max-height: calc(100vh - 70vh - 60px);
       }
     }
 

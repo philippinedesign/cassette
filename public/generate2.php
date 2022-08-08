@@ -46,7 +46,7 @@
         $img_url = "./tapes/".$i["cid"]."-cover.jpg";
       }
       
-  echo "<div class='tape-cover'><img alt='".$i['artist']." - ".$i['title']."' class='tape-cover-img' src='./tapes/".$img_url."'></div>";
+  echo "<div class='tape-cover'><img data-zoom-image alt='".$i['artist']." - ".$i['title']."' title='".$i['artist']." - ".$i['title']."' class='tape-cover-img' src='./tapes/".$img_url."'></div>";
       
     echo "<a href='./tapes/".$i['cid'].".html'>".$i['cid']."</a>"; echo "<br>";
       
@@ -100,7 +100,7 @@
         ':year' => $i['year'],
         ':discogs' => $i['discogs'],
         ':stream' => $i['stream'],
-        ':images_cover' => '<img src="'.$img_url.'">',
+        ':images_cover' => '<img data-zoom-image alt="'.$i["artist"].' - '.$i['title'].'" title="'.$i["artist"].' - '.$i['title'].'" src="'.$img_url.'">',
         ':images_html' => $templated_images
     );
       

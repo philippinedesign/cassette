@@ -108,6 +108,14 @@ $(".control-displaytype button[data-control='smol']").click(function () {
 // about
 
 $(".info button[data-what='info']").click(function () {
+
+  if ($("#about").is(":visible")) {
+    $(".info button").css("opacity", 1);
+  } else {
+    $(".info button").css("opacity", 0.5);
+    $(".info button[data-what='info']").css("opacity", 1);
+  }
+
   $("#about").fadeToggle();
 });
 
@@ -122,6 +130,7 @@ $(".info button[data-what='ig']").click(function () {
 
 function checkFilters() {
 
+  $(".info button").css("opacity", 1);
   $("#about").fadeOut();
 
   $("#header #all").prop("checked", false);
@@ -149,8 +158,9 @@ function checkFilters() {
   $("#index .tape-only a" + selectors).show();
 
   $("#index .tape-only").animate({
-    scrollLeft: 0
-  });
+    scrollLeft: 0,
+    scrollTop: 0
+  }, 00);
 }
 
 // filters
@@ -167,6 +177,8 @@ $("#header .header-controls  #all").change(function () {
 });
 
 $("#title-about h1").click(function () {
+  $(".info button").css("opacity", 1);
+  $("#about").fadeOut();
 
   $("#index .tape-only a").show();
   $('#header .header-controls div  input:checkbox').prop("checked", false);
@@ -193,34 +205,27 @@ $(".control-genre input").change(function () {
   checkFilters();
 })
 
-//    $(document).on('dblclick', '#header input', function() {
-// if (this.checked) {
-// $(this).prop('checked', false);
+
 //
-// $("#index .tape-only a[data-decade='" + v + "']").show();
-// $("#index .tape-only a[data-genre='" + v + "']").show();
-// }
-// });
-
-function scrolltoTape(what) {
-
-  $f = "a[data-id='" + what + "']";
-
-  //      $(".tape-only").scrollTo($($f).offset().left - 100);
-
-  if (!isVisible($(what), $(".tape-only"))) {
-    $(".tape-only").animate({
-      scrollLeft: $($f).offset().left - 100
-    }, 900);
-  }
-
-  $(".tape-only a").css("opacity", 0.8).css("filter", "grayscale(80%)");
-  $($f).css("opacity", 1).css("filter", "grayscale(0)");
-
-}
-
-$(".tape-wrapper").on("click", "div", function (event) {
-  //      alert("lol");
-  let go = $(this).attr("data-id");
-  scrolltoTape(go);
-});
+// SCROLL TO TAPE
+//function scrolltoTape(what) {
+//
+//  $f = "a[data-id='" + what + "']";
+//
+//
+//  if (!isVisible($(what), $(".tape-only"))) {
+//    $(".tape-only").animate({
+//      scrollLeft: $($f).offset().left - 100
+//    }, 900);
+//  }
+//
+//  $(".tape-only a").css("opacity", 0.8).css("filter", "grayscale(80%)");
+//  $($f).css("opacity", 1).css("filter", "grayscale(0)");
+//
+//}
+//
+//$(".tape-wrapper").on("click", "div", function (event) {
+//  //      alert("lol");
+//  let go = $(this).attr("data-id");
+//  scrolltoTape(go);
+//});

@@ -47,6 +47,13 @@ body {
 #about p {
   max-width: 700px;
 }
+#about a {
+  color: #000;
+  opacity: 0.5;
+}
+#about a:hover {
+  opacity: 1;
+}
 
 #index-wrapper {
   display: flex;
@@ -70,13 +77,14 @@ body {
   max-width: 100%;
   flex-grow: 2;
   padding: 0 2.5vw;
+  margin: 0;
 }
 #title-about h1 {
   margin: 0;
   padding: 0;
   font-weight: normal;
   text-transform: uppercase;
-  cursor: progress;
+  cursor: s-resize;
 }
 
 #header {

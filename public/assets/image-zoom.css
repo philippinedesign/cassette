@@ -26,12 +26,13 @@ Image Zoom JS v0.0.1 | MIT License | https://github.com/alecrios/image-zoom-js
   transform: none;
   transition: transform 400ms ease;
   cursor: zoom-in;
-  padding: 1em;
+  padding: .5em;
+  max-height: none;
+  max-width: none;
 }
 
 [data-zoom-image='active'] {
+  position: fixed;
   z-index: 1000;
-  height: auto;
-  width: auto;
   cursor: zoom-out;
 }
