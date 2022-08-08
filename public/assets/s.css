@@ -231,12 +231,15 @@ body {
     padding: 0.5em 0;
     padding-right: 1em;
   }
+  #header label {
+    padding: 0.1em 0.25em;
+  }
   #header .header-controls div {
     max-width: 100px;
   }
   #header .header-controls .control-displaytype button {
     display: block;
-    padding: 0.25em;
+    padding: 0.15em 0.25em;
     font-size: 1em;
   }
 }
@@ -359,13 +362,14 @@ body {
 @media only screen and (max-width: 800px) {
   #index .tape-wrapper-smol .tape-only {
     padding-top: 100px;
+    justify-content: space-between;
   }
 }
 #index .tape-wrapper-smol .tape-only a {
   position: relative;
   box-sizing: border-box;
-  margin: 0.75em 0.25em;
-  width: 120px;
+  margin: 0.5em 0.2em;
+  width: 110px;
   height: 236px;
   display: inline-block;
   text-decoration: none;

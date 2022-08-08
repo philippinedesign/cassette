@@ -28,9 +28,10 @@ $(function () {
       let url = $(this).attr("src");
 
       $("#cover img").attr("src", url);
-      $("#cover img").css("width", "100%");
+      $("#cover img").css("width", "auto");
       $("#cover img").css("height", "auto");
-      $("#cover img").css("max-height", "60vh");
+      $("#cover img").css("max-width", "90%");
+      $("#cover img").css("max-height", "100%");
     }
 
   });

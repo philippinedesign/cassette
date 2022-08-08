@@ -57,7 +57,7 @@
       
     // generate images
       
-    $templated_images = "<img src='".$img_url."'> "; // with cover
+    $templated_images = "<img data-zoom-image src='".$img_url."'> "; // with cover
 //    $templated_images = " ";
       
 //    image: jcard
@@ -109,8 +109,9 @@ $handle = fopen('tapes/'.$i['cid'].'.html','w+');
 
 $templated_html = strtr($newcontent, $replace_array);
 
-fwrite($handle, $templated_html); fclose($handle); }
-//}
+fwrite($handle, $templated_html); fclose($handle); 
+    
+    }
       
     ?>
 
