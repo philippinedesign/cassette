@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>:artist - :title (:year) | Philippine Cassette Archive </title>
+  <title>:artist - :title | Philippine Cassette Archive </title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
@@ -26,29 +26,66 @@
   <meta property="twitter:description" content="Archiving & celebrating Pinoy cassette culture.">
   <meta property="twitter:image" content="https://philippine.design/tapes/preview.png">
 
-  <link rel="stylesheet" href="../assets/s.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="../assets/tape.css">
+  <link rel="stylesheet" href="../assets/image-zoom.css">
 
 </head>
 
 <body>
-  <a href="../">Back</a>
-  <br><br>
-  :images_cover
-  <p>:artist - :title (:year) released by :label</p>
-  <br>
-  <hr>
+  <div class="top-wrapper">
+    <div id="title-about">
+      <a href="../">
+        <h1 title="Go back to archive">
+          <span>:artist - :title</span>
+        </h1>
+      </a>
+    </div>
 
-  <h1>:artist - :title</h1>
+    <div class="info">
+      <button data-what="info">About</button>
+      <button data-what="fb">FB</button>
+      <button data-what="ig">IG</button>
+      <button></button>
+    </div>
+  </div>
+  <main>
+
+    <section id="cover">
+      :images_cover
+    </section>
+
+    <section id="content">
+      <div class="_metadata">
+        <div class="__year">(:year)</div>
+        <div class="__label">:label</div>
+      </div>
+
+      <div class="_links">
+        <a class="__discogs" href=":discogs">Discogs</a>
+        <a class="__streaming" href=":stream">Stream</a>
+      </div>
 
 
-  <h1>Images</h1>
-  <br><br>
-  :images_html
+      <div class="images">
+        :images_html
+        <img data-zoom-image src='./tapes/bmbo-02-cover.jpg'>
+        <img data-zoom-image src='./tapes/bmbo-02-jcard.jpeg'>
+        <img data-zoom-image src='./tapes/bmbo-02-tape.jpeg'>
+        <img data-zoom-image src='./tapes/bmbo-02-1.jpeg'>
+        <img data-zoom-image src='./tapes/bmbo-02-2.jpeg'>
+      </div>
 
-  <br>
-  <br>
+    </section>
 
-  <a href="../index.html">Back</a>
+
+  </main>
+
+
+  <script src="tape.js" type="text/javascript"></script>
+  <script src="../assets/image-zoom.js"></script>
 
 </body>
 

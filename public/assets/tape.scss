@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://use.typekit.net/wgp0pcn.css");
+$white: #EEEDE9;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: .9em;
+  font-family: ibm-plex-mono, sans-serif;
+  background: $white;
+  overflow: hidden;
+
+  @media only screen and (max-width: 800px) {
+    font-size: .8em;
+    overflow-y: hidden;
+  }
+
+}
+
+
+// HEADER
+
+.top-wrapper {
+  position: fixed;
+  z-index: 99;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 2.5vh 2.5vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: rgb(238, 237, 233);
+  background: linear-gradient(180deg, rgba(238, 237, 233, 1) 0%, rgba(238, 237, 233, 0.5) 80%, rgba(238, 237, 233, 0) 100%);
+  display: flex;
+
+
+  button {
+    font-family: ibm-plex-mono, sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    background: 0;
+    padding: 0 .25em;
+    margin: 0;
+    font-size: .9em;
+    cursor: pointer;
+
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+  }
+
+
+  .info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+  }
+
+  .info:hover > button:not(:hover) {
+    opacity: 0.6;
+  }
+
+  @media only screen and (max-width: 800px) {
+    height: 120px;
+  }
+}
+
+
+#title-about {
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-grow: 2;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  h1 {
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.top-wrapper:hover h1 span {
+  display: none;
+}
+
+.top-wrapper:hover h1:before {
+  content: "Philippine Cassette Archive"
+}
+
+// CONTENT
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 800px) {
+    max-height: 100%;
+    overflow-y: hidden;
+    display: block;
+  }
+}
+
+#cover {
+  padding: 0 2.5vw;
+  width: 380px;
+  text-align: left;
+  padding-top: 80px;
+
+  img {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    width: 100%;
+    text-align: center;
+    height: 70vh;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+#content {
+
+  width: calc(100% - 380px);
+  height: 100%;
+  padding-top: 80px;
+  overflow-y: scroll;
+  padding-right: 2.5vw;
+  padding-bottom: 5vh;
+
+  @media only screen and (max-width: 800px) {
+    padding: 0 2.5vw;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+  }
+
+  ._links:hover > a:not(:hover) {
+    opacity: 0.6;
+  }
+
+  h1 {
+    padding: 1em 0;
+    padding-top: 0;
+    border-bottom: 1px solid #000;
+  }
+
+
+  ._metadata,
+  ._links {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 800px) {
+      max-width: 200px;
+    }
+  }
+
+  ._links {
+    justify-content: flex-start;
+
+    @media only screen and (max-width: 800px) {
+      justify-content: space-between;
+    }
+  }
+
+
+  ._year,
+  ._label {
+    display: inline-block;
+  }
+
+  ._links {
+    padding: .5em 0;
+
+    a {
+      text-decoration: none;
+      color: #000;
+      padding: 0 .5em;
+
+      -webkit-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out;
+    }
+
+    a[href=""] {
+      display: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .images {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: text-top;
+    padding-top: 1em;
+    border-top: 1px solid #000;
+
+    img {
+      vertical-align: text-top;
+      max-height: 300px;
+      max-width: 50%;
+    }
+
+
+    @media only screen and (max-width: 800px) {
+
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      -webkit-overflow-scrolling: touch;
+
+      img {
+        max-width: none;
+        height: auto;
+        max-height: calc(100vh - 70vh - 50px);
+      }
+    }
+
+  }
+
+}

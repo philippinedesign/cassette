@@ -90,12 +90,16 @@ $(function () {
 
 // view
 $(".control-displaytype button[data-control='big']").click(function () {
+  $("#about").fadeOut();
+
   $(".control-displaytype button[data-control='big']").css("opacity", 1);
   $(".control-displaytype button[data-control='smol']").css("opacity", 0.5);
   $(".tape-wrapper-smol").fadeOut();
 });
 
 $(".control-displaytype button[data-control='smol']").click(function () {
+  $("#about").fadeOut();
+
   $(".control-displaytype button[data-control='smol']").css("opacity", 1);
   $(".control-displaytype button[data-control='big']").css("opacity", 0.5);
   $(".tape-wrapper-smol").fadeIn();
@@ -105,11 +109,20 @@ $(".control-displaytype button[data-control='smol']").click(function () {
 
 $(".info button[data-what='info']").click(function () {
   $("#about").fadeToggle();
+});
 
+$(".info button[data-what='fb']").click(function () {
+  window.open("https://www.facebook.com/Philippine-Cassette-Archive-107292395417537");
+});
+
+$(".info button[data-what='ig']").click(function () {
+  window.open("https://www.instagram.com/philippinecassettes");
 });
 
 
 function checkFilters() {
+
+  $("#about").fadeOut();
 
   $("#header #all").prop("checked", false);
   let tapes = $("#index .tape-only a");
@@ -149,19 +162,26 @@ $("#header .header-controls  #all").change(function () {
   }
 
   $("#index .tape-only a").show();
-  $(this).prop("checked", true);
   $('#header .header-controls div  input:checkbox').prop("checked", false);
+  $(this).prop("checked", true);
 });
 
-$(".control-decade input").change(function () {
+$("#title-about h1").click(function () {
 
+  $("#index .tape-only a").show();
+  $('#header .header-controls div  input:checkbox').prop("checked", false);
+  $(this).prop("checked", true);
+});
+
+
+$(".control-decade input").change(function () {
   if ($(".control-decade input:checked").length > 1) {
     let v = $(this).val();
     $(".control-decade input:not([value='" + v + "'])").prop("checked", false);
   }
 
   checkFilters();
-})
+});
 
 $(".control-genre input").change(function () {
 

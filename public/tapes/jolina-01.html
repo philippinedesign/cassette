@@ -3,42 +3,94 @@
 
 <head>
 
-  <title>Jolina - Jolina (1999) | Philippine Cassette Archive </title>
+  <title>Jolina Magdangal - Jolina | Philippine Cassette Archive </title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
 
-  <meta name="description" content="Jolina - Jolina (1999) released by Star Records | The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta name="description" content="Jolina Magdangal - Jolina (1999) released by Star Records | The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
 
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://philippine.design/tapes/:cid">
-  <meta property="ogJolina" content="Jolina - Jolina (1999) | Philippine Cassette Archive">
-  <meta property="og:description" content="Jolina - Jolina (1999) released by Star Records | The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta property="og:url" content="https://philippine.design/tapes/jolina-01">
+  <meta property="ogJolina" content="Jolina Magdangal - Jolina (1999) | Philippine Cassette Archive">
+  <meta property="og:description" content="Jolina Magdangal - Jolina (1999) released by Star Records | The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
   <meta property="og:image" content="https://philippine.design/tapes/preview.png">
 
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://philippine.design/tapes/:cid">
-  <meta property="twitterJolina" content="Jolina - Jolina (1999) | Philippine Cassette Archive">
+  <meta property="twitter:url" content="https://philippine.design/tapes/jolina-01">
+  <meta property="twitterJolina" content="Jolina Magdangal - Jolina (1999) | Philippine Cassette Archive">
   <meta property="twitter:description" content="Archiving & celebrating Pinoy cassette culture.">
   <meta property="twitter:image" content="https://philippine.design/tapes/preview.png">
 
-  <link rel="stylesheet" href="../assets/s.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="../assets/tape.css">
+  <link rel="stylesheet" href="../assets/image-zoom.css">
 
 </head>
 
 <body>
+  <div class="top-wrapper">
+    <div id="title-about">
+      <a href="../">
+        <h1 title="Go back to archive">
+          <span>Jolina Magdangal - Jolina</span>
+        </h1>
+      </a>
+    </div>
+
+    <div class="info">
+      <button data-what="info">About</button>
+      <button data-what="fb">FB</button>
+      <button data-what="ig">IG</button>
+      <button></button>
+    </div>
+  </div>
+  <main>
+
+    <section id="cover">
+      <img src="./tapes/jolina-01-cover.jpeg">
+    </section>
+
+    <section id="content">
+      <div class="_metadata">
+        <div class="__year">(1999)</div>
+        <div class="__label">Star Records</div>
+      </div>
+
+      <div class="_links">
+        <a class="__discogs" href="https://www.discogs.com/release/15996367-Jolina-Jolina">Discogs</a>
+        <a class="__streaming" href="https://open.spotify.com/album/3gkaPU2s8ssCQhaUK6Saw0?si=tEiIwQIURiKyprrGWpmedQ">Stream</a>
+      </div>
+
+
+      <div class="images">
+        <img src='./tapes/jolina-01-cover.jpeg'> 
+        <img data-zoom-image src='./tapes/bmbo-02-cover.jpg'>
+        <img data-zoom-image src='./tapes/bmbo-02-jcard.jpeg'>
+        <img data-zoom-image src='./tapes/bmbo-02-tape.jpeg'>
+        <img data-zoom-image src='./tapes/bmbo-02-1.jpeg'>
+        <img data-zoom-image src='./tapes/bmbo-02-2.jpeg'>
+      </div>
+
+    </section>
+
+
+  </main>
+
   <a href="../">Back</a>
   <br><br>
   <img src="./tapes/jolina-01-cover.jpeg">
-  <p>Jolina - Jolina (1999) released by Star Records</p>
+  <p>Jolina Magdangal - Jolina (1999) released by Star Records</p>
   <br>
   <hr>
 
-  <h1>Jolina - Jolina</h1>
+  <h1>Jolina Magdangal - Jolina</h1>
 
 
   <h1>Images</h1>
@@ -49,6 +101,11 @@
   <br>
 
   <a href="../index.html">Back</a>
+
+
+
+  <script src="tape.js" type="text/javascript"></script>
+  <script src="../assets/image-zoom.js"></script>
 
 </body>
 

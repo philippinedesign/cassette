@@ -7,7 +7,8 @@
     "year": 1993,
     "decade": 1990,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/6156373-Eraserheads-Ultraelectromagneticpop"
+    "discogs": "https://www.discogs.com/release/6156373-Eraserheads-Ultraelectromagneticpop",
+    "stream": "https://open.spotify.com/album/0HDclsvr13EmV3DBMSVWPX?si=ma8AmxSBREi7CfDb2Fk0yA"
   },
   "eraserheads-02": {
     "cid": "eraserheads-02",
@@ -17,7 +18,8 @@
     "year": 1994,
     "decade": 1990,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/9688602-Eraserheads-Circus"
+    "discogs": "https://www.discogs.com/release/9688602-Eraserheads-Circus",
+    "stream": "https://open.spotify.com/album/1IalzI8USuu4PB679HVV5C?si=7e9895a2fa8d4580"
   },
   "eraserheads-03": {
     "cid": "eraserheads-03",
@@ -27,7 +29,8 @@
     "year": 1995,
     "decade": 1990,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/9688605-Eraserheads-Cutterpillow"
+    "discogs": "https://www.discogs.com/release/9688605-Eraserheads-Cutterpillow",
+    "stream": "https://open.spotify.com/album/6JbcJM51TZIX8nkjns3M4U?si=3c8d161a6f154626"
   },
   "eraserheads-04": {
     "cid": "eraserheads-04",
@@ -37,7 +40,8 @@
     "year": 1997,
     "decade": 1990,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/5586584-Eraserheads-Sticker-Happy"
+    "discogs": "https://www.discogs.com/release/5586584-Eraserheads-Sticker-Happy",
+    "stream": "https://open.spotify.com/track/6qKgBptHy91O5wbEs5x9on?si=fc9eff91f1b3499b"
   },
   "eraserheads-05": {
     "cid": "eraserheads-05",
@@ -47,7 +51,8 @@
     "year": 1999,
     "decade": 1990,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/9688601-Eraserheads-Natin99"
+    "discogs": "https://www.discogs.com/release/9688601-Eraserheads-Natin99",
+    "stream": "https://open.spotify.com/album/3PHIP06HdZkoQkYsdejC53?si=ERVLlnPrTDeJ52OIir2L4A"
   },
   "ls-01": {
     "cid": "ls-01",
@@ -57,7 +62,8 @@
     "year": 1993,
     "decade": 1990,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/14315924-Lea-Salonga-LeaSalonga"
+    "discogs": "https://www.discogs.com/release/14315924-Lea-Salonga-LeaSalonga",
+    "stream": "https://open.spotify.com/album/1McJxNj5QoF8LPBiEPvnwG?si=88HWyizoRkG8lZzrotba6Q"
   },
   "ls-02": {
     "cid": "ls-02",
@@ -67,7 +73,8 @@
     "year": 2000,
     "decade": 2000,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/17360449-Lea-Salonga-By-Heart-"
+    "discogs": "https://www.discogs.com/release/17360449-Lea-Salonga-By-Heart-",
+    "stream": null
   },
   "ls-03": {
     "cid": "ls-03",
@@ -77,7 +84,8 @@
     "year": 1999,
     "decade": 1990,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/17359780-Lea-Salonga-In-Love-"
+    "discogs": "https://www.discogs.com/release/17359780-Lea-Salonga-In-Love-",
+    "stream": null
   },
   "zsa-01": {
     "cid": "zsa-01",
@@ -87,7 +95,8 @@
     "year": 1984,
     "decade": 1980,
     "genre": "Soul",
-    "discogs": "https://www.discogs.com/release/23504309-Zsa-Zsa-Padilla-Am-I-Your-Kind-Of-Woman"
+    "discogs": "https://www.discogs.com/release/23504309-Zsa-Zsa-Padilla-Am-I-Your-Kind-Of-Woman",
+    "stream": "https://open.spotify.com/album/2MQZfgtegR62kai8AghQMC?si=dlYdBynfRlOm63pJQh_CZA"
   },
   "apo-01": {
     "cid": "apo-01",
@@ -97,7 +106,8 @@
     "year": 1980,
     "decade": 1980,
     "genre": "Soul",
-    "discogs": "https://www.discogs.com/release/12594917-Apo-Hiking-Society-Apo-Hiking-Society"
+    "discogs": "https://www.discogs.com/release/12594917-Apo-Hiking-Society-Apo-Hiking-Society",
+    "stream": null
   },
   "apo-02": {
     "cid": "apo-02",
@@ -107,17 +117,19 @@
     "year": 1983,
     "decade": 1980,
     "genre": "Soul",
-    "discogs": "https://www.discogs.com/release/12594924-Apo-Hiking-Society-True-To-My-Music"
+    "discogs": "https://www.discogs.com/release/12594924-Apo-Hiking-Society-True-To-My-Music",
+    "stream": null
   },
   "jolina-01": {
     "cid": "jolina-01",
-    "artist": "Jolina",
+    "artist": "Jolina Magdangal",
     "title": "Jolina",
     "label": "Star Records",
     "year": 1999,
     "decade": 1990,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/15996367-Jolina-Jolina"
+    "discogs": "https://www.discogs.com/release/15996367-Jolina-Jolina",
+    "stream": "https://open.spotify.com/album/3gkaPU2s8ssCQhaUK6Saw0?si=tEiIwQIURiKyprrGWpmedQ"
   },
   "bass-01": {
     "cid": "bass-01",
@@ -127,17 +139,19 @@
     "year": 1991,
     "decade": 1990,
     "genre": "Hip Hop",
-    "discogs": "https://www.discogs.com/release/11959969-Bass-Rhyme-The-Bass-Rhyme-Posse"
+    "discogs": "https://www.discogs.com/release/11959969-Bass-Rhyme-The-Bass-Rhyme-Posse",
+    "stream": "https://open.spotify.com/album/43Ld9vFw4r47Mipyd2MFRl?si=w8-t7CbYS7iI-5zpvdcXcA"
   },
   "reg-01": {
     "cid": "reg-01",
-    "artist": "Regine",
+    "artist": "Regine Velasquez",
     "title": "Regine",
     "label": "Viva Records",
     "year": 1987,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/5083770-Regine-Regine"
+    "discogs": "https://www.discogs.com/release/5083770-Regine-Regine",
+    "stream": "https://open.spotify.com/album/2P4V4gEjP9ibbRrvO2mb7Q?si=bbecf97054b0419f"
   },
   "kr-01": {
     "cid": "kr-01",
@@ -147,7 +161,8 @@
     "year": 1999,
     "decade": 1990,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/12295217-Kristina-Valdez-Kristina-Valdez"
+    "discogs": "https://www.discogs.com/release/12295217-Kristina-Valdez-Kristina-Valdez",
+    "stream": "https://open.spotify.com/album/7iefO0OzBIeJ4p6FtU1qGb?si=8149243c5e1d4817"
   },
   "love-01": {
     "cid": "love-01",
@@ -157,7 +172,8 @@
     "year": "Unknown",
     "decade": null,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/10066258-Various-Tagalog-Love-Songs"
+    "discogs": "https://www.discogs.com/release/10066258-Various-Tagalog-Love-Songs",
+    "stream": null
   },
   "pilita-01": {
     "cid": "pilita-01",
@@ -167,7 +183,8 @@
     "year": 1980,
     "decade": 1980,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/8182838-Pilita-Corrales-Greatest-Hits"
+    "discogs": "https://www.discogs.com/release/8182838-Pilita-Corrales-Greatest-Hits",
+    "stream": "https://open.spotify.com/album/1diub1pnljLz6FSX1x1mvv?si=X308dfQkSMupqnVxPKYJfA"
   },
   "pilita-02": {
     "cid": "pilita-02",
@@ -177,7 +194,8 @@
     "year": 1983,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/20160877-Pilita-Pilita-Sings-Love-Themes-From-Viva-Films"
+    "discogs": "https://www.discogs.com/release/20160877-Pilita-Pilita-Sings-Love-Themes-From-Viva-Films",
+    "stream": "https://open.spotify.com/album/1SiDYPrllLABEa43KHdAWO?si=jvjFH769SJq3ufFqOq0N7Q"
   },
   "phron-01": {
     "cid": "phron-01",
@@ -187,7 +205,8 @@
     "year": 1977,
     "decade": 1970,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/22383730-Philippine-Rondalla-Philippine-Folk-Dances"
+    "discogs": "https://www.discogs.com/release/22383730-Philippine-Rondalla-Philippine-Folk-Dances",
+    "stream": "https://open.spotify.com/album/5n32qb6G3QGqsemXxVZl6N?si=VcNX31VzSNq9TAJoKAeWnQ"
   },
   "larry-01": {
     "cid": "larry-01",
@@ -197,7 +216,8 @@
     "year": 1972,
     "decade": 1970,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/19602229-Larry-Miranda-Salamisim"
+    "discogs": "https://www.discogs.com/release/19602229-Larry-Miranda-Salamisim",
+    "stream": null
   },
   "wuds-01": {
     "cid": "wuds-01",
@@ -207,7 +227,8 @@
     "year": 1985,
     "decade": 1980,
     "genre": "Punk",
-    "discogs": "https://www.discogs.com/release/3398236-Wuds-Arms-Talk"
+    "discogs": "https://www.discogs.com/release/3398236-Wuds-Arms-Talk",
+    "stream": null
   },
   "wuds-02": {
     "cid": "wuds-02",
@@ -217,7 +238,8 @@
     "year": 1994,
     "decade": 1990,
     "genre": "Punk",
-    "discogs": "https://www.discogs.com/release/5062385-Wuds-Oplan-Kahon"
+    "discogs": "https://www.discogs.com/release/5062385-Wuds-Oplan-Kahon",
+    "stream": null
   },
   "tonedef-01": {
     "cid": "tonedef-01",
@@ -227,7 +249,8 @@
     "year": 1998,
     "decade": 1990,
     "genre": "Punk",
-    "discogs": "https://www.discogs.com/release/7385973-Various-Tone-Def-Volume-2-Rock-Revolution"
+    "discogs": "https://www.discogs.com/release/7385973-Various-Tone-Def-Volume-2-Rock-Revolution",
+    "stream": null
   },
   "cherries-01": {
     "cid": "cherries-01",
@@ -237,7 +260,8 @@
     "year": 1997,
     "decade": 1990,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/12295308-Cherries-A-Taste-Of-Love"
+    "discogs": "https://www.discogs.com/release/12295308-Cherries-A-Taste-Of-Love",
+    "stream": "https://open.spotify.com/album/2jIpVXhktHWgw15EmTG9HA?si=6866cb1e077e4f82"
   },
   "dja-01": {
     "cid": "dja-01",
@@ -247,7 +271,8 @@
     "year": 1995,
     "decade": 1990,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/21705859-DJ-Alvaro-Bagong-Babae"
+    "discogs": "https://www.discogs.com/release/21705859-DJ-Alvaro-Bagong-Babae",
+    "stream": "https://open.spotify.com/album/6yWynfuTxcxsx9qIEBkSNH?si=8151f0fa45d64421"
   },
   "jesse-01": {
     "cid": "jesse-01",
@@ -257,7 +282,8 @@
     "year": 2000,
     "decade": 2000,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/15476709-Jessa-Zaragoza-The-Best-Of-Jessa-Zaragoza"
+    "discogs": "https://www.discogs.com/release/15476709-Jessa-Zaragoza-The-Best-Of-Jessa-Zaragoza",
+    "stream": null
   },
   "sunshine-01": {
     "cid": "sunshine-01",
@@ -267,7 +293,8 @@
     "year": 1985,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/20660014-Various-The-Best-of-Manila-Sound"
+    "discogs": "https://www.discogs.com/release/20660014-Various-The-Best-of-Manila-Sound",
+    "stream": "https://open.spotify.com/album/3IGlGYwEvk6EQhQmR5qhhT?si=8gfLY0xqSkWcV0klcDXPlw"
   },
   "ric-01": {
     "cid": "ric-01",
@@ -277,7 +304,8 @@
     "year": 1973,
     "decade": 1970,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/19602694-Ric-Manrique-Jr-Awit-At-Pag-Ibig"
+    "discogs": "https://www.discogs.com/release/19602694-Ric-Manrique-Jr-Awit-At-Pag-Ibig",
+    "stream": null
   },
   "ric-02": {
     "cid": "ric-02",
@@ -287,7 +315,8 @@
     "year": "1990s",
     "decade": 1990,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/13445300-Ric-Manrique-Jr-Dama-De-Noche"
+    "discogs": "https://www.discogs.com/release/13445300-Ric-Manrique-Jr-Dama-De-Noche",
+    "stream": null
   },
   "ric-03": {
     "cid": "ric-03",
@@ -297,7 +326,8 @@
     "year": 1971,
     "decade": 1990,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/23080301-Ric-Manrique-Jr-DYos-Lamang-Ang-Nakakaalam"
+    "discogs": "https://www.discogs.com/release/23080301-Ric-Manrique-Jr-DYos-Lamang-Ang-Nakakaalam",
+    "stream": "https://open.spotify.com/album/1IJHOoZNGC4cNtH7OFm8Kz?si=QiA62W7dQ7qYTsetYkf5aA"
   },
   "fre-01": {
     "cid": "fre-01",
@@ -307,7 +337,8 @@
     "year": 1979,
     "decade": 1970,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/18768613-Freddie-Aguilar-Greatest-Hits"
+    "discogs": "https://www.discogs.com/release/18768613-Freddie-Aguilar-Greatest-Hits",
+    "stream": "https://open.spotify.com/album/4NGkCGd2GJaGrbVizCnJFs?si=DE2peP9mRO2b5Xv7sIONSA"
   },
   "fre-02": {
     "cid": "fre-02",
@@ -316,8 +347,9 @@
     "label": "Ivory Records",
     "year": 1988,
     "decade": 1980,
-    "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/13881532-Freddie-Aguilar-Katarungan"
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/13881532-Freddie-Aguilar-Katarungan",
+    "stream": null
   },
   "cely-01": {
     "cid": "cely-01",
@@ -327,7 +359,8 @@
     "year": 1977,
     "decade": 1970,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/19266904-Cely-Bautista-Walang-Kapantay"
+    "discogs": "https://www.discogs.com/release/19266904-Cely-Bautista-Walang-Kapantay",
+    "stream": "https://open.spotify.com/album/3kQz02WDSbT5ZGJfdlTgsK?si=p9ATJJKJRxmDDR6NT_TWSQ"
   },
   "wally-01": {
     "cid": "wally-01",
@@ -337,7 +370,8 @@
     "year": 1977,
     "decade": 1970,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/13437892-Wally-Gonzalez-Tunog-Pinoy"
+    "discogs": "https://www.discogs.com/release/13437892-Wally-Gonzalez-Tunog-Pinoy",
+    "stream": null
   },
   "sharon-01": {
     "cid": "sharon-01",
@@ -347,7 +381,8 @@
     "year": 1979,
     "decade": 1970,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/9865597-Sharon-Cuneta-Sharon"
+    "discogs": "https://www.discogs.com/release/9865597-Sharon-Cuneta-Sharon",
+    "stream": "https://open.spotify.com/album/7G26XuHll8K6uM53qxCS0X?si=62f7e043af304d7d"
   },
   "sharon-02": {
     "cid": "sharon-02",
@@ -357,7 +392,8 @@
     "year": 1990,
     "decade": 1990,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/6222293-Sharon-For-Broken-Hearts-Only"
+    "discogs": "https://www.discogs.com/release/6222293-Sharon-For-Broken-Hearts-Only",
+    "stream": "https://open.spotify.com/album/7dReSTSLgWGFA3gAFb8vsV?si=59aa2d9b19554b9c"
   },
   "sharon-03": {
     "cid": "sharon-03",
@@ -367,7 +403,8 @@
     "year": 1983,
     "decade": 1980,
     "genre": "Soul",
-    "discogs": "https://www.discogs.com/release/13854617-Sharon-The-Very-Best-Of-Sharon"
+    "discogs": "https://www.discogs.com/release/13854617-Sharon-The-Very-Best-Of-Sharon",
+    "stream": "https://open.spotify.com/album/53rPxxpFzBYlII8nhdYf5n?si=f5f767a6cc9c43ef"
   },
   "juan-01": {
     "cid": "juan-01",
@@ -377,7 +414,8 @@
     "year": 1978,
     "decade": 1970,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/4597598-Juan-De-La-Cruz-Band-Live-In-Concert"
+    "discogs": "https://www.discogs.com/release/4597598-Juan-De-La-Cruz-Band-Live-In-Concert",
+    "stream": null
   },
   "juan-02": {
     "cid": "juan-02",
@@ -387,7 +425,8 @@
     "year": 1973,
     "decade": 1970,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/4597629-Juan-De-La-Cruz-Band-Kahit-Anong-Mangyari"
+    "discogs": "https://www.discogs.com/release/4597629-Juan-De-La-Cruz-Band-Kahit-Anong-Mangyari",
+    "stream": null
   },
   "asin-01": {
     "cid": "asin-01",
@@ -397,7 +436,8 @@
     "year": 1987,
     "decade": 1980,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/13864058-Asin-Himig-Kayumanggi"
+    "discogs": "https://www.discogs.com/release/13864058-Asin-Himig-Kayumanggi",
+    "stream": null
   },
   "asin-02": {
     "cid": "asin-02",
@@ -407,7 +447,8 @@
     "year": 1984,
     "decade": 1980,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/14665638-Asin-Mga-Awitin-Ng-Bayan-Kong-Pilipinas"
+    "discogs": "https://www.discogs.com/release/14665638-Asin-Mga-Awitin-Ng-Bayan-Kong-Pilipinas",
+    "stream": null
   },
   "cel-01": {
     "cid": "cel-01",
@@ -417,7 +458,8 @@
     "year": 1977,
     "decade": 1970,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/20137693-Celeste-Legaspi-Ako-At-Si-Celeste"
+    "discogs": "https://www.discogs.com/release/20137693-Celeste-Legaspi-Ako-At-Si-Celeste",
+    "stream": "https://open.spotify.com/album/1NsqATV1mogtU5KEy42CPs?si=mBoylkA0R6mIunOAn5w0ag"
   },
   "kuh-01": {
     "cid": "kuh-01",
@@ -427,7 +469,8 @@
     "year": 1981,
     "decade": 1980,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/18298153-Kuh-Ledesma-Kuhs-Magic"
+    "discogs": "https://www.discogs.com/release/18298153-Kuh-Ledesma-Kuhs-Magic",
+    "stream": null
   },
   "kuh-02": {
     "cid": "kuh-02",
@@ -437,7 +480,8 @@
     "year": 1983,
     "decade": 1980,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/13842374-Kuh-Ledesma-Ako-Ay-Pilipino"
+    "discogs": "https://www.discogs.com/release/13842374-Kuh-Ledesma-Ako-Ay-Pilipino",
+    "stream": "https://open.spotify.com/album/0RQGr8DUZiOGriscZk9pfe?si=qcFS8ipOQ3OtBEC4fiT4Wg"
   },
   "kuh-03": {
     "cid": "kuh-03",
@@ -447,7 +491,8 @@
     "year": 1984,
     "decade": 1980,
     "genre": "Jazz",
-    "discogs": "https://www.discogs.com/release/8324757-Kuh-Ledesma-I-Think-Im-In-Love"
+    "discogs": "https://www.discogs.com/release/8324757-Kuh-Ledesma-I-Think-Im-In-Love",
+    "stream": null
   },
   "kuh-04": {
     "cid": "kuh-04",
@@ -457,7 +502,8 @@
     "year": 1987,
     "decade": 1980,
     "genre": "Jazz",
-    "discogs": "https://www.discogs.com/release/23892968-Kuh-Ledesma-Feeling"
+    "discogs": "https://www.discogs.com/release/23892968-Kuh-Ledesma-Feeling",
+    "stream": null
   },
   "rey-01": {
     "cid": "rey-01",
@@ -467,7 +513,8 @@
     "year": 1982,
     "decade": 1980,
     "genre": "Funk",
-    "discogs": "https://www.discogs.com/release/14554633-Rey-Valera-Hello"
+    "discogs": "https://www.discogs.com/release/14554633-Rey-Valera-Hello",
+    "stream": null
   },
   "coritha-01": {
     "cid": "coritha-01",
@@ -477,7 +524,8 @@
     "year": 1980,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/12707303-Coritha-Coritha"
+    "discogs": "https://www.discogs.com/release/12707303-Coritha-Coritha",
+    "stream": null
   },
   "rico-01": {
     "cid": "rico-01",
@@ -487,7 +535,8 @@
     "year": 1978,
     "decade": 1970,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/13854631-Rico-J-Puno-Tatak"
+    "discogs": "https://www.discogs.com/release/13854631-Rico-J-Puno-Tatak",
+    "stream": null
   },
   "timmy-01": {
     "cid": "timmy-01",
@@ -497,7 +546,8 @@
     "year": 1988,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/19520326-Timmy-Cruz-Take-Care"
+    "discogs": "https://www.discogs.com/release/19520326-Timmy-Cruz-Take-Care",
+    "stream": null
   },
   "bong-01": {
     "cid": "bong-01",
@@ -507,7 +557,8 @@
     "year": 1978,
     "decade": 1970,
     "genre": "Jazz",
-    "discogs": "https://www.discogs.com/release/11691616-Bong-Pe%C3%B1era-Bong-Penera"
+    "discogs": "https://www.discogs.com/release/11691616-Bong-Pe%C3%B1era-Bong-Penera",
+    "stream": null
   },
   "basil-01": {
     "cid": "basil-01",
@@ -517,7 +568,8 @@
     "year": 1985,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/19428565-Basil-Valdez-Corner-Of-The-Sky"
+    "discogs": "https://www.discogs.com/release/19428565-Basil-Valdez-Corner-Of-The-Sky",
+    "stream": null
   },
   "hit-01": {
     "cid": "hit-01",
@@ -527,7 +579,8 @@
     "year": 1982,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/23080484-Various-Hitmakers"
+    "discogs": "https://www.discogs.com/release/23080484-Various-Hitmakers",
+    "stream": null
   },
   "hit-02": {
     "cid": "hit-02",
@@ -537,7 +590,8 @@
     "year": 1982,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/23080529-Various-Hitmakers-2"
+    "discogs": "https://www.discogs.com/release/23080529-Various-Hitmakers-2",
+    "stream": null
   },
   "tvj-01": {
     "cid": "tvj-01",
@@ -547,7 +601,8 @@
     "year": 1970,
     "decade": 1970,
     "genre": "Rock",
-    "discogs": "https://www.discogs.com/release/23157392-Tito-Vic-Joey-The-Best-Of-Tito-Vic-Joey-Vol-1"
+    "discogs": "https://www.discogs.com/release/23157392-Tito-Vic-Joey-The-Best-Of-Tito-Vic-Joey-Vol-1",
+    "stream": null
   },
   "5p-01": {
     "cid": "5p-01",
@@ -557,7 +612,8 @@
     "year": 1982,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/23316059-Various-The-Fifth-Metro-Manila-Popular-Music-Festival"
+    "discogs": "https://www.discogs.com/release/23316059-Various-The-Fifth-Metro-Manila-Popular-Music-Festival",
+    "stream": null
   },
   "max-01": {
     "cid": "max-01",
@@ -567,7 +623,8 @@
     "year": 1984,
     "decade": 1980,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/21460624-Max-Surban-Mad-Max-Kuno"
+    "discogs": "https://www.discogs.com/release/21460624-Max-Surban-Mad-Max-Kuno",
+    "stream": null
   },
   "mrt-01": {
     "cid": "mrt-01",
@@ -577,7 +634,8 @@
     "year": 1984,
     "decade": 1980,
     "genre": "Funk",
-    "discogs": "https://www.discogs.com/release/12594959-Martin-Nievera-The-Best-Gift"
+    "discogs": "https://www.discogs.com/release/12594959-Martin-Nievera-The-Best-Gift",
+    "stream": null
   },
   "jam-01": {
     "cid": "jam-01",
@@ -587,7 +645,8 @@
     "year": 1988,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/23893184-Jamie-Rivera-All-Out-For-Love"
+    "discogs": "https://www.discogs.com/release/23893184-Jamie-Rivera-All-Out-For-Love",
+    "stream": null
   },
   "diktador": {
     "cid": "diktador",
@@ -597,7 +656,8 @@
     "year": 1981,
     "decade": 1980,
     "genre": "Propaganda",
-    "discogs": "https://www.discogs.com/release/23409341-Ferdinand-E-Marcos-Panunumpa-Ng-Pangulo-Sa-Bagong-Republika-Ng-Pilipinas-Hunyo-30-1981"
+    "discogs": "https://www.discogs.com/release/23409341-Ferdinand-E-Marcos-Panunumpa-Ng-Pangulo-Sa-Bagong-Republika-Ng-Pilipinas-Hunyo-30-1981",
+    "stream": null
   },
   "jnt-01": {
     "cid": "jnt-01",
@@ -607,7 +667,8 @@
     "year": 1983,
     "decade": 1980,
     "genre": "Funk",
-    "discogs": "https://www.discogs.com/release/23080094-Janet-Basco-Janet-Basco"
+    "discogs": "https://www.discogs.com/release/23080094-Janet-Basco-Janet-Basco",
+    "stream": null
   },
   "ray-01": {
     "cid": "ray-01",
@@ -617,7 +678,8 @@
     "year": 1986,
     "decade": 1980,
     "genre": "Funk",
-    "discogs": "https://www.discogs.com/release/22938431-Ray-An-Fuentes-Alive-Againn"
+    "discogs": "https://www.discogs.com/release/22938431-Ray-An-Fuentes-Alive-Againn",
+    "stream": null
   },
   "psko": {
     "cid": "psko",
@@ -627,7 +689,8 @@
     "year": 1982,
     "decade": 1980,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/21635437-The-Las-Pi%C3%B1as-Boys-Choir-Vince-Gomez-2-Manuel-Maramba-Pasko-Sa-Las-Pi%C3%B1as-A-Philippine-Christmas-At"
+    "discogs": "https://www.discogs.com/release/21635437-The-Las-Pi%C3%B1as-Boys-Choir-Vince-Gomez-2-Manuel-Maramba-Pasko-Sa-Las-Pi%C3%B1as-A-Philippine-Christmas-At",
+    "stream": null
   },
   "garyv-01": {
     "cid": "garyv-01",
@@ -637,7 +700,8 @@
     "year": 1985,
     "decade": 1980,
     "genre": "Electronic",
-    "discogs": "https://www.discogs.com/release/14856756-Gary-Valenciano-GaryNext"
+    "discogs": "https://www.discogs.com/release/14856756-Gary-Valenciano-GaryNext",
+    "stream": null
   },
   "ed-01": {
     "cid": "ed-01",
@@ -647,7 +711,8 @@
     "year": 1988,
     "decade": 1980,
     "genre": "Pop",
-    "discogs": "https://www.discogs.com/release/13863808-Eddie-Peregrina-The-Blinkers-What-Am-I-Living-For"
+    "discogs": "https://www.discogs.com/release/13863808-Eddie-Peregrina-The-Blinkers-What-Am-I-Living-For",
+    "stream": null
   },
   "jollibee-01": {
     "cid": "jollibee-01",
@@ -657,7 +722,8 @@
     "year": 1984,
     "decade": 1980,
     "genre": "Children's",
-    "discogs": null
+    "discogs": null,
+    "stream": null
   },
   "bmbo-01": {
     "cid": "bmbo-01",
@@ -667,7 +733,8 @@
     "year": 1976,
     "decade": 1970,
     "genre": "Classical",
-    "discogs": "https://www.discogs.com/release/15246884-Wolfgang-Oehms-The-Bamboo-Organ-Of-Las-Pi%C3%B1as-Metro-Manila-Philippines"
+    "discogs": "https://www.discogs.com/release/15246884-Wolfgang-Oehms-The-Bamboo-Organ-Of-Las-Pi%C3%B1as-Metro-Manila-Philippines",
+    "stream": null
   },
   "bmbo-02": {
     "cid": "bmbo-02",
@@ -677,7 +744,8 @@
     "year": null,
     "decade": null,
     "genre": "Classical",
-    "discogs": "https://www.discogs.com/release/11019407-Armando-Salarza-Manuel-Maramba-Guy-Bovet-Theo-Mertens-Brass-Quintet-Popular-Filipino-Tunes-At-The-Ba"
+    "discogs": "https://www.discogs.com/release/11019407-Armando-Salarza-Manuel-Maramba-Guy-Bovet-Theo-Mertens-Brass-Quintet-Popular-Filipino-Tunes-At-The-Ba",
+    "stream": null
   },
   "where": {
     "cid": "where",
@@ -687,7 +755,8 @@
     "year": 1989,
     "decade": 1980,
     "genre": "Punk",
-    "discogs": "https://www.discogs.com/release/3739029-Various-Philippines-Where-Do-We-Go-From-Here"
+    "discogs": "https://www.discogs.com/release/3739029-Various-Philippines-Where-Do-We-Go-From-Here",
+    "stream": null
   },
   "freedom": {
     "cid": "freedom",
@@ -697,7 +766,8 @@
     "year": 1985,
     "decade": 1980,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/10490367-Jess-Santiago-Paul-Galang-Susan-Fernandez-Philippines-Songs-For-Freedom"
+    "discogs": "https://www.discogs.com/release/10490367-Jess-Santiago-Paul-Galang-Susan-Fernandez-Philippines-Songs-For-Freedom",
+    "stream": null
   },
   "kundiman": {
     "cid": "kundiman",
@@ -707,7 +777,8 @@
     "year": 2003,
     "decade": 2000,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/19673317-Conching-Rosal-Immortal-Kundiman-Of-The-Philippines"
+    "discogs": "https://www.discogs.com/release/19673317-Conching-Rosal-Immortal-Kundiman-Of-The-Philippines",
+    "stream": null
   },
   "ruben": {
     "cid": "ruben",
@@ -717,7 +788,8 @@
     "year": 1970,
     "decade": 1970,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/12747021-Ruben-Tagalog-Harana-Ni-Ruben-Tagalog"
+    "discogs": "https://www.discogs.com/release/12747021-Ruben-Tagalog-Harana-Ni-Ruben-Tagalog",
+    "stream": null
   },
   "juans-01": {
     "cid": "juans-01",
@@ -727,7 +799,8 @@
     "year": 1970,
     "decade": 1970,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/10946777-Juan-Silos-Jr-And-His-Rondalla-Philippine-Folk-Dances-"
+    "discogs": "https://www.discogs.com/release/10946777-Juan-Silos-Jr-And-His-Rondalla-Philippine-Folk-Dances-",
+    "stream": null
   },
   "relly": {
     "cid": "relly",
@@ -737,6 +810,7 @@
     "year": 1970,
     "decade": null,
     "genre": "Folk",
-    "discogs": "https://www.discogs.com/release/20571214-Relly-Coloma-Balut"
+    "discogs": "https://www.discogs.com/release/20571214-Relly-Coloma-Balut",
+    "stream": null
   }
 }

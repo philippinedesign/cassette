@@ -46,7 +46,7 @@
         $img_url = "./tapes/".$i["cid"]."-cover.jpg";
       }
       
-  echo "<div class='tape-cover'><img class='tape-cover-img' src='./tapes/".$img_url."'></div>";
+  echo "<div class='tape-cover'><img alt='".$i['artist']." - ".$i['title']."' class='tape-cover-img' src='./tapes/".$img_url."'></div>";
       
     echo "<a href='./tapes/".$i['cid'].".html'>".$i['cid']."</a>"; echo "<br>";
       
@@ -56,22 +56,23 @@
     echo $i['year']; echo "</div>";
       
     // generate images
-    $templated_images = "<img src='".$img_url."'> ";
+      
+//    $templated_images = "<img src='".$img_url."'> "; // with cover
+    $templated_images = " ";
       
 //    image: jcard
      if( file_exists("./tapes/tapes/".$i["cid"]."-jcard.jpeg")){
-    $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-jcard.jpeg'>";
+    $templated_images = $templated_images."<img data-zoom-image  alt='".$i['artist']." - ".$i['title']." Jcard' src='./tapes/".$i["cid"]."-jcard.jpeg'>";
     }  elseif(file_exists("./tapes/tapes/".$i["cid"]."-jcard.jpg")){
-    $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-jcard.jpg'>";
+    $templated_images = $templated_images."<img data-zoom-image  alt='".$i['artist']." - ".$i['title']." Jcard' src='./tapes/".$i["cid"]."-jcard.jpg'>";
     }
       
 //    image: tape
      if( file_exists("./tapes/tapes/".$i['cid']."-tape.jpeg")){
- $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-tape.jpeg'>";
+ $templated_images = $templated_images."<img data-zoom-image alt='".$i['artist']." - ".$i['title']."Tape' src='./tapes/".$i["cid"]."-tape.jpeg'>";
  } elseif(file_exists("./tapes/tapes/".$i['cid']."-tape.jpg")){
- $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-tape.jpg'>";
+ $templated_images = $templated_images."<img data-zoom-image alt='".$i['artist']." - ".$i['title']." Tape' src='./tapes/".$i["cid"]."-tape.jpg'>";
  }
-
 
     // image: extras
     for ($x = 1; $x <= 5; $x++) { 
@@ -82,9 +83,9 @@
         } 
       
         if( file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpeg")){
-           $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-".$x.".jpeg'>";
+           $templated_images = $templated_images."<img data-zoom-image src='./tapes/".$i["cid"]."-".$x.".jpeg'>";
       } elseif (file_exists("./tapes/tapes/".$i["cid"]."-".$x.".jpg")){
-      $templated_images = $templated_images."<img src='./tapes/".$i["cid"]."-".$x.".jpg'>";
+      $templated_images = $templated_images."<img data-zoom-image src='./tapes/".$i["cid"]."-".$x.".jpg'>";
       } else{
           break;
         }
@@ -92,12 +93,13 @@
     // values for template
               
     $replace_array = array(
-        ':id' => $i['cid'],
+        ':cid' => $i['cid'],
         ':artist' => $i['artist'],
         ':title' => $i['title'],
         ':label' => $i['label'],
         ':year' => $i['year'],
         ':discogs' => $i['discogs'],
+        ':stream' => $i['stream'],
         ':images_cover' => '<img src="'.$img_url.'">',
         ':images_html' => $templated_images
     );

@@ -45,18 +45,18 @@
 
 
           <div class="control-displaytype">
-            <button data-control="big">Big</button>
             <button data-control="smol">Small</button>
+            <button data-control="big">Big</button>
           </div>
 
         </div>
 
         <div class="info">
           <button data-what="info">About</button>
+          <button data-what="fb">FB</button>
+          <button data-what="ig">IG</button>
+          <button></button>
         </div>
-
-
-        <!--        <div class="control-showfilters"></div>-->
       </div>
     </div>
 
@@ -71,7 +71,15 @@
       <p>If you are interested in donating to the archive or to philippine.design in general (feel free to specify where your donation would like to go), contact Chia at <a href="mailto:admin@philippine.design"></a>. We are grateful to receive donations in any amount to fund our research and archival requests, particularly in compensation for scanning & digitization efforts.</p>
 
       <p><strong>Cassette Adoption</strong>: For Php1000 (20USD), you may 'adopt' a cassette page and list your name + a short message on its page.</p>
-      <p></p>
+
+      <p>All contributors, supporters, and partners will be listed on this page.</p>
+
+      <h1>Find us</h1>
+      <div class="links">
+        <a href="https://developh.org" target="_blank">Developh</a>
+        <a href="https://www.facebook.com/Philippine-Cassette-Archive-107292395417537" target="_blank">Philippine Cassette Archive on Facebook</a>
+        <a href="https://www.instagram.com/philippinecassettes" target="_blank">@philippinecassettes on Instagram</a>
+      </div>
     </div>
 
     <div id="index">
@@ -98,7 +106,6 @@
 
     </div>
   </div>
-  <!--  <script src="https://sheet2api.com/v1/template.js"></script>-->
 
 
   <script src="t.js" type="text/javascript"></script>
