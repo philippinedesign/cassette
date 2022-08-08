@@ -154,6 +154,12 @@ body {
     opacity: 1;
   }
 
+  @media only screen and (max-width: 800px) {
+
+    padding: 0 2.5vw;
+    padding-bottom: 5vh;
+  }
+
 }
 
 // INDEX
