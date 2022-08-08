@@ -95,7 +95,7 @@
     $replace_array = array(
         ':cid' => $i['cid'],
         ':artist' => $i['artist'],
-        ':title' => $i['title'],
+        ':stitle' => $i['title'],
         ':label' => $i['label'],
         ':year' => $i['year'],
         ':discogs' => $i['discogs'],

@@ -8,6 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
 
+
+  <meta name="description" content="The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://philippine.design/tapes">
+  <meta property="og" content="The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta property="og:description" content="The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta property="og:image" content="https://philippine.design/tapes/preview.png">
+
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://philippine.design/tapes">
+  <meta property="twitter:title" content="Philippine Cassette Archive">
+  <meta property="twitter:description" content="Archiving & celebrating Pinoy cassette culture.">
+  <meta property="twitter:image" content="https://philippine.design/tapes/preview.png">
+
+
   <link rel="stylesheet" href="./assets/s.css">
 
 
