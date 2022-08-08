@@ -57,28 +57,30 @@ showIndex.render = async () => {
 
 $(function () {
 
+
   showIndex.render();
   //  console.log("done");
+
+
+  // not the first time?
+
+  //  var hasVisited = window.localStorage.getItem('washere');
+  //
+  //  console.log(hasVisited);
+
+  if (localStorage.getItem('washere') === 'true') {
+    $("#loader").fadeOut(500);
+    //    console.log("been here");
+    console.log("o.o");
+
+  } else {
+    console.log("..");
+    window.localStorage.setItem('washere', 'true');
+  }
 
 });
 
 
-// scroll handler
-const isVisible = function (ele, container) {
-  const eleTop = ele.offsetTop;
-  const eleBottom = eleTop + ele.clientHeight;
-
-  const containerTop = container.scrollTop;
-  const containerBottom = containerTop + container.clientHeight;
-
-  // The element is fully visible in the container
-  return (
-    (eleTop >= containerTop && eleBottom <= containerBottom) ||
-    // Some part of the element is visible in the container
-    (eleTop < containerTop && containerTop < eleBottom) ||
-    (eleTop < containerBottom && containerBottom < eleBottom)
-  );
-};
 
 // tooltips
 $(function () {
@@ -94,7 +96,10 @@ $(".control-displaytype button[data-control='big']").click(function () {
 
   $(".control-displaytype button[data-control='big']").css("opacity", 1);
   $(".control-displaytype button[data-control='smol']").css("opacity", 0.5);
+
   $(".tape-wrapper-smol").fadeOut();
+  $(".tape-wrapper").fadeIn();
+
 });
 
 $(".control-displaytype button[data-control='smol']").click(function () {
@@ -103,6 +108,7 @@ $(".control-displaytype button[data-control='smol']").click(function () {
   $(".control-displaytype button[data-control='smol']").css("opacity", 1);
   $(".control-displaytype button[data-control='big']").css("opacity", 0.5);
   $(".tape-wrapper-smol").fadeIn();
+  $(".tape-wrapper").fadeOut();
 });
 
 // about
@@ -205,6 +211,13 @@ $(".control-genre input").change(function () {
   checkFilters();
 })
 
+// page transition
+$(".tape-only a").click(function () {
+
+  $("#loader").fadeIn();
+  $("#loader ._loading span").hide();
+
+});
 
 //
 // SCROLL TO TAPE

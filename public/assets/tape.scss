@@ -32,6 +32,94 @@ body {
 }
 
 
+// LOADER
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  background: $white;
+
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+
+
+  animation: seconds .25s forwards;
+  animation-iteration-count: 1;
+  animation-delay: .25s;
+
+  ._loading {
+
+    text-align: center;
+    opacity: 1;
+    animation: seconds_logo .3s forwards;
+    animation-iteration-count: 1;
+    animation-delay: .2s;
+
+    img {
+      margin: 0 auto;
+      max-width: 160px;
+      padding: 1em;
+      display: block;
+    }
+
+  }
+}
+
+
+@-webkit-keyframes seconds_logo {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    pointer-events: none;
+    opacity: 1;
+  }
+}
+
+@keyframes seconds_logo {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    pointer-events: none;
+  }
+}
+
+
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    pointer-events: none;
+    bottom: -4009px;
+  }
+}
+
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    pointer-events: none;
+    bottom: -4009px;
+  }
+}
+
+
+
 // ABOUT
 #about {
   position: absolute;
@@ -40,7 +128,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
-  padding: 2em;
+  padding: 2em 2.5vw;
   padding-top: 0;
   background: linear-gradient(180deg, rgba(238, 237, 233, 1) 0%, rgba(238, 237, 233, 1) 87%, rgba(238, 237, 233, 1) 100%);
 

@@ -18,6 +18,12 @@
 
 <body>
 
+  <div id="loader">
+    <div class="_loading">
+      <img src="philippine-cassette-archive.svg">
+      <span>Loading the Philippine Cassette Archive...</span>
+    </div>
+  </div>
 
   <div id="index-wrapper">
 

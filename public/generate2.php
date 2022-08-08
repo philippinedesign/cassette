@@ -46,7 +46,7 @@
         $img_url = "./tapes/".$i["cid"]."-cover.jpg";
       }
       
-  echo "<div class='tape-cover'><img data-zoom-image alt='".$i['artist']." - ".$i['title']."' title='".$i['artist']." - ".$i['title']."' class='tape-cover-img' src='./tapes/".$img_url."'></div>";
+  echo "<div class='tape-cover'><img data-zoom-image alt='".$i['artist']." - ".$i['title']."' title='".$i['artist']." - ".$i['title']."' class='tape-cover-img' src='".$img_url."'></div>";
       
     echo "<a href='./tapes/".$i['cid'].".html'>".$i['cid']."</a>"; echo "<br>";
       
@@ -57,8 +57,8 @@
       
     // generate images
       
-//    $templated_images = "<img src='".$img_url."'> "; // with cover
-    $templated_images = " ";
+    $templated_images = "<img src='".$img_url."'> "; // with cover
+//    $templated_images = " ";
       
 //    image: jcard
      if( file_exists("./tapes/tapes/".$i["cid"]."-jcard.jpeg")){
