@@ -11,7 +11,8 @@ Image Zoom JS v0.0.1 | MIT License | https://github.com/alecrios/image-zoom-js
   z-index: 900;
   background-color: #EEEDE9;
   opacity: 0;
-  transition: opacity 400ms ease;
+  transition: opacity 500ms ease;
+  transition-delay: 300ms;
   pointer-events: none;
 }
 
@@ -24,15 +25,35 @@ Image Zoom JS v0.0.1 | MIT License | https://github.com/alecrios/image-zoom-js
   position: relative;
   z-index: 800;
   transform: none;
-  transition: transform 400ms ease;
+  transition: transform 500ms ease;
+  /*  transition-delay: 300ms;*/
   cursor: zoom-in;
   padding: .5em;
   max-height: none;
   max-width: none;
+  overflow: visible;
 }
 
 [data-zoom-image='active'] {
-  position: fixed;
-  z-index: 1000;
+  z-index: 9999999999;
   cursor: zoom-out;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  [data-zoom-image='active'] {
+    /*    position: fixed;*/
+    max-height: none;
+    height: 100%;
+  }
+
+  #content {
+    height: 100%;
+  }
+
+  .images {
+    z-index: 99999999;
+  }
+
 }

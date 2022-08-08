@@ -28,19 +28,19 @@
       <div id="header">
         <div class="header-controls">
           <div>
-            <input id="all" type="checkbox" name="all" value="all"><label for="all">All</label>
+            <label for="all"><input id="all" type="checkbox" name="all" value="all">All</label>
           </div>
           <div class="control-decade">
-            <input id="70s" type="checkbox" name="decade" value="1970"><label for="70s">70s</label>
-            <input id="80s" type="checkbox" name="decade" value="1980"><label for="80s">80s</label>
-            <input id="90s" type="checkbox" name="decade" value="1990"><label for="90s">90s</label>
-            <input id="00s" type="checkbox" name="decade" value="2000"><label for="00s">00s</label>
+            <label for="70s"><input id="70s" type="checkbox" name="decade" value="1970">70s</label>
+            <label for="80s"><input id="80s" type="checkbox" name="decade" value="1980">80s</label>
+            <label for="90s"><input id="90s" type="checkbox" name="decade" value="1990">90s</label>
+            <label for="00s"><input id="00s" type="checkbox" name="decade" value="2000">00s</label>
           </div>
           <div class="control-genre">
-            <input id="pop" type="checkbox" name="genre" value="pop"><label for="pop">Pop</label>
-            <input id="folk" type="checkbox" name="genre" value="folk"><label for="folk">Folk</label>
-            <input id="rock" type="checkbox" name="genre" value="rock"><label for="rock">Rock</label>
-            <input id="jazz" type="checkbox" name="genre" value="jazz"><label for="jazz">Jazz</label>
+            <label for="pop"><input id="pop" type="checkbox" name="genre" value="pop">Pop</label>
+            <label for="folk"><input id="folk" type="checkbox" name="genre" value="folk">Folk</label>
+            <label for="rock"><input id="rock" type="checkbox" name="genre" value="rock">Rock</label>
+            <label for="jazz"><input id="jazz" type="checkbox" name="genre" value="jazz">Jazz</label>
           </div>
 
 

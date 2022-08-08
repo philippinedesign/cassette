@@ -95,6 +95,7 @@ body {
   margin: 0;
 
   h1 {
+    line-height: 100%;
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -125,7 +126,6 @@ body {
 
     div {
       width: auto;
-      margin-left: .25em;
     }
 
     .control-displaytype {
@@ -137,10 +137,13 @@ body {
     display: inline-block;
     transform: translateY(-2px);
     padding: .25em;
-  }
 
-  input {
-    transform: translateY(1px);
+    input {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      transform: translateY(2px);
+    }
   }
 
 
@@ -151,6 +154,7 @@ body {
     background: 0;
     padding: .25em;
     font-size: .9em;
+    color: #000;
 
 
     -webkit-transition: all .15s ease-in-out;
@@ -174,14 +178,32 @@ body {
   @media only screen and (max-width: 800px) {
     flex-wrap: nowrap;
 
+    .info {
+
+
+      button {
+        display: block;
+      }
+    }
+
+
     div {
       display: inline;
+
+      input[id="all"] {
+        display: none;
+      }
+
+      label[for="all"] {
+        padding: .5em 0;
+      }
+
     }
 
     .header-controls {
 
       div {
-        max-width: 110px;
+        max-width: 100px;
       }
 
       .control-displaytype button {
@@ -318,7 +340,6 @@ $height_tapes: 77vh;
     height: 100%;
     overflow-x: hidden;
     z-index: 1;
-    //    display: none;
 
     .tape-only {
       overflow-y: scroll;
@@ -334,6 +355,10 @@ $height_tapes: 77vh;
       padding-bottom: 20px;
       scroll-behavior: smooth;
       counter-reset: tapect;
+
+      @media only screen and (max-width: 800px) {
+        padding-top: 100px;
+      }
 
       a {
         position: relative;
@@ -405,7 +430,6 @@ $height_tapes: 77vh;
     -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
 
-
     .tape-only {
 
       a {
@@ -415,6 +439,21 @@ $height_tapes: 77vh;
       a:first {
         margin-left: 2.5vw !important;
       }
+
+      @media only screen and (max-width: 800px) {
+
+        a {
+          max-height: calc(100vh - 100px);
+
+          img {}
+
+        }
+
+      }
+    }
+
+    @media only screen and (max-width: 800px) {
+      padding-top: 70px;
     }
 
 

@@ -80,6 +80,7 @@ body {
   margin: 0;
 }
 #title-about h1 {
+  line-height: 100%;
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -108,7 +109,6 @@ body {
 }
 #header .header-controls div {
   width: auto;
-  margin-left: 0.25em;
 }
 #header .header-controls .control-displaytype {
   margin-left: 10%;
@@ -118,8 +118,11 @@ body {
   transform: translateY(-2px);
   padding: 0.25em;
 }
-#header input {
-  transform: translateY(1px);
+#header label input {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  transform: translateY(2px);
 }
 #header button {
   font-family: ibm-plex-mono, sans-serif;
@@ -128,6 +131,7 @@ body {
   background: 0;
   padding: 0.25em;
   font-size: 0.9em;
+  color: #000;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
@@ -146,11 +150,20 @@ body {
   #header {
     flex-wrap: nowrap;
   }
+  #header .info button {
+    display: block;
+  }
   #header div {
     display: inline;
   }
+  #header div input[id=all] {
+    display: none;
+  }
+  #header div label[for=all] {
+    padding: 0.5em 0;
+  }
   #header .header-controls div {
-    max-width: 110px;
+    max-width: 100px;
   }
   #header .header-controls .control-displaytype button {
     display: block;
@@ -274,6 +287,11 @@ body {
   scroll-behavior: smooth;
   counter-reset: tapect;
 }
+@media only screen and (max-width: 800px) {
+  #index .tape-wrapper-smol .tape-only {
+    padding-top: 100px;
+  }
+}
 #index .tape-wrapper-smol .tape-only a {
   position: relative;
   box-sizing: border-box;
@@ -336,6 +354,16 @@ body {
 }
 #index .tape-wrapper .tape-only a:first {
   margin-left: 2.5vw !important;
+}
+@media only screen and (max-width: 800px) {
+  #index .tape-wrapper .tape-only a {
+    max-height: calc(100vh - 100px);
+  }
+}
+@media only screen and (max-width: 800px) {
+  #index .tape-wrapper {
+    padding-top: 70px;
+  }
 }
 
 input:hover,
