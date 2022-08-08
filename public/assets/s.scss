@@ -157,6 +157,7 @@ body {
   @media only screen and (max-width: 800px) {
 
     padding: 0 2.5vw;
+    padding-top: 5vh;
     padding-bottom: 5vh;
   }
 
@@ -391,6 +392,7 @@ $height_tapes: 77vh;
   margin: 0;
   padding: 0;
   top: 0;
+  overflow-y: hidden;
 
 
 
@@ -426,9 +428,8 @@ $height_tapes: 77vh;
         object-fit: cover;
         margin: auto;
         width: auto;
-        height: 100%;
-        //        transform: scale(1.2);
-
+        height: auto;
+        max-height: 100%;
       }
     }
 
@@ -546,11 +547,18 @@ $height_tapes: 77vh;
 
       @media only screen and (max-width: 800px) {
 
+        margin-top: 2em;
+        height: 90%;
+
         a {
-          max-height: calc(100vh - 180px);
+          height: 100%;
 
-          img {}
+          img {
 
+            width: auto;
+            height: auto;
+            max-height: 100%;
+          }
         }
 
       }

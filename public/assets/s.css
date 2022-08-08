@@ -125,6 +125,7 @@ body {
 @media only screen and (max-width: 800px) {
   #about {
     padding: 0 2.5vw;
+    padding-top: 5vh;
     padding-bottom: 5vh;
   }
 }
@@ -314,6 +315,7 @@ body {
   margin: 0;
   padding: 0;
   top: 0;
+  overflow-y: hidden;
 }
 #index .tape-only {
   height: 100%;
@@ -344,7 +346,8 @@ body {
   object-fit: cover;
   margin: auto;
   width: auto;
-  height: 100%;
+  height: auto;
+  max-height: 100%;
 }
 #index .tape-wrapper-smol {
   position: absolute;
@@ -441,8 +444,17 @@ body {
   margin-left: 2.5vw !important;
 }
 @media only screen and (max-width: 800px) {
+  #index .tape-wrapper .tape-only {
+    margin-top: 2em;
+    height: 90%;
+  }
   #index .tape-wrapper .tape-only a {
-    max-height: calc(100vh - 180px);
+    height: 100%;
+  }
+  #index .tape-wrapper .tape-only a img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
   }
 }
 @media only screen and (max-width: 800px) {
