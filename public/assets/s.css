@@ -161,6 +161,11 @@ body {
   text-transform: uppercase;
   cursor: s-resize;
 }
+@media only screen and (max-width: 800px) {
+  #title-about {
+    padding: 0.5em 1em;
+  }
+}
 
 #header {
   width: 100%;

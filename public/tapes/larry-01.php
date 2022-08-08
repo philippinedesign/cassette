@@ -8,20 +8,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
 
-  <meta name="description" content="Larry Miranda - Salamisim (1972) released by Plaka Pilipino | The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta name="description" content="Larry Miranda - Salamisim (1972) released by Plaka Pilipino | The Philippine Cassette Archive celebrates & preserves Pinoy tape culture.">
 
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://philippine.design/tapes/tapes/larry-01">
+  <meta property="og:url" content="https://philippinecassettearchive.com/tapes/larry-01">
   <meta property="og:title" content="Larry Miranda - Salamisim (1972) | Philippine Cassette Archive">
-  <meta property="og:description" content="Larry Miranda - Salamisim (1972) released by Plaka Pilipino | The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta property="og:description" content="Larry Miranda - Salamisim (1972) released by Plaka Pilipino | The Philippine Cassette Archive celebrates & preserves Pinoy tape culture">
   <meta property="og:image" content="https://philippine.design/tapes/preview.png">
 
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://philippine.design/tapes/tapes/larry-01">
+  <meta property="twitter:url" content="https://philippinecassettearchive.com/tapes/larry-01">
   <meta property="twitter:title" content="Larry Miranda - Salamisim (1972) | Philippine Cassette Archive">
   <meta property="twitter:description" content="Archiving & celebrating Pinoy cassette culture.">
   <meta property="twitter:image" content="https://philippine.design/tapes/preview.png">
@@ -61,15 +61,16 @@
   </div>
   <div id="about">
     <h1>About the Philippine Cassette Archive</h1>
-    <p>The Philippine Cassette Archive is a digital collection of cassette tapes, a glimpse into Pinoy tape culture.<br><br>Launched in August 2022 under the <a href="https://philippine.design" target="_blank">philippine.design</a> project, the collection currently focuses on graphic design, packaging, and visuals. We later hope to expand on collecting cassettes from small labels, locally-produced bootlegs, and in collecting newer (post-2010s) artifacts by contemporary Filipino musicians & artist collectives.</p>
+    <p>The Philippine Cassette Archive is a digital collection of cassette tapes, a glimpse into Pinoy tape culture. philippinecassettearchive.com<br><br>Launched in August 2022 under the <a href="https://philippine.design" target="_blank">philippine.design</a> project, the collection currently focuses on graphic design, packaging, and visuals. Materials on launch are largely taken from Discogs. We later hope to expand on collecting cassettes from small labels, locally-produced bootlegs, and in collecting newer (post-2010s) artifacts by contemporary Filipino musicians & artist collectives.</p>
+
 
     <h1>Submit a tape</h1>
     <p>If you have scans and/or digital versions of your cassette tapes or have metadata to contribute to any entries, please feel free to submit them to us at admin@philippine.design or via Facebook Messenger or Instagram DM.</p>
 
     <h1>Support the Archive</h1>
-    <p>If you are interested in donating to the archive or to philippine.design in general (feel free to specify where your donation would like to go), contact Chia at <a href="mailto:admin@philippine.design"></a>. We are grateful to receive donations in any amount to fund our research and archival requests, particularly in compensation for scanning & digitization efforts.</p>
+    <p>If you are interested in donating to the archive or to philippine.design in general (feel free to specify where your donation would like to go), contact Chia at <a href="mailto:admin@philippine.design">admin@philippine.design</a>. We are grateful to receive donations in any amount to fund our research and archival requests, particularly in compensation for scanning & digitization efforts.</p>
 
-    <p><strong>Cassette Adoption</strong>: For Php1000 (20USD), you may 'adopt' a cassette page and list your name + a short message on its page.</p>
+    <p><strong>Cassette Adoption</strong>: For Php1000 (20USD), you may 'adopt' a cassette page and list your name + a short message on its respective page.</p>
 
     <p>All contributors, supporters, and partners will be listed on this page.</p>
 
@@ -79,6 +80,9 @@
       <a href="https://www.facebook.com/Philippine-Cassette-Archive-107292395417537" target="_blank">Philippine Cassette Archive on Facebook</a>
       <a href="https://www.instagram.com/philippinecassettes" target="_blank">@philippinecassettes on Instagram</a>
     </div>
+    <br>
+    <h1>Contributors & Supporters</h1>
+    <p><a href="https://twitter.com/hotemogf">Chia (Founder)</a></p>
   </div>
 
   <main>

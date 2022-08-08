@@ -211,7 +211,7 @@ body {
   }
 
   @media only screen and (max-width: 800px) {
-    padding: 0 2.5vw;
+    padding: .5em 1em;
     height: 120px;
   }
 }
@@ -271,9 +271,11 @@ main {
   width: 520px;
   text-align: left;
   padding-top: 80px;
-  vertical-align: middle;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  vertical-align: text-top;
+  flex-direction: column;
+  flex-wrap: nowrap;
 
   img {
     padding: 0;
@@ -291,7 +293,11 @@ main {
     text-align: center;
     height: 66vh;
 
+    justify-content: center;
+    vertical-align: middle;
+
     img {
+      margin: 0 auto;
       height: auto;
       width: auto;
       max-width: 90%;
