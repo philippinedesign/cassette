@@ -389,6 +389,16 @@ body {
   text-decoration: none;
   color: #000;
 }
+#index .tape-wrapper-smol .tape-only a .info {
+  margin: 0;
+  padding: 0.2em 0;
+  font-size: 0.6em;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
 #index .tape-wrapper-smol .tape-only a::before {
   counter-increment: tapect;
   content: "0" counter(tapect);
@@ -400,13 +410,6 @@ body {
 }
 #index .tape-wrapper-smol .tape-only img {
   max-height: 188px;
-}
-#index .tape-wrapper-smol .tape-only .info {
-  margin: 0;
-  padding: 0.2em 0;
-  font-size: 0.6em;
-  text-align: left;
-  text-overflow: ellipsis;
 }
 #index .tape-wrapper-smol .tape-only ._year {
   box-sizing: border-box;

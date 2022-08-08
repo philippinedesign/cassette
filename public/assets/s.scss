@@ -474,6 +474,19 @@ $height_tapes: 77vh;
         display: inline-block;
         text-decoration: none;
         color: #000;
+
+
+        .info {
+          margin: 0;
+          padding: .2em 0;
+          font-size: .6em;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          display: inline-block;
+          white-space: nowrap;
+        }
+
       }
 
 
@@ -489,14 +502,6 @@ $height_tapes: 77vh;
 
       img {
         max-height: 188px;
-      }
-
-      .info {
-        margin: 0;
-        padding: .2em 0;
-        font-size: .6em;
-        text-align: left;
-        text-overflow: ellipsis;
       }
 
       ._year {
