@@ -106,7 +106,7 @@
     );
       
 //if (file_exists('tapes/'.$i['cid'].'.html')) {
-$handle = fopen('tapes/'.$i['cid'].'.php','w+');
+$handle = fopen('tapes/'.$i['cid'].'.html','w+');
 
 $templated_html = strtr($newcontent, $replace_array);
 

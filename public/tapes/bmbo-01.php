@@ -93,7 +93,8 @@
 
     <section id="content">
       <div class="_metadata">
-        <div class="__year" title="The year the tape was released, presumably">(1976)</div>
+        <div class="__year" title="The year the tape was released, presumably">1976</div>
+        <div class="__genre">Classical</div>
         <div class="__label" title="Company or creator who distributed the tape">None</div>
       </div>
 

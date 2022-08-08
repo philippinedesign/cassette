@@ -93,7 +93,8 @@
 
     <section id="content">
       <div class="_metadata">
-        <div class="__year" title="The year the tape was released, presumably">(1994)</div>
+        <div class="__year" title="The year the tape was released, presumably">1994</div>
+        <div class="__genre">Punk</div>
         <div class="__label" title="Company or creator who distributed the tape">Criminal Records</div>
       </div>
 
