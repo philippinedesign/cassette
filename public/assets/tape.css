@@ -229,24 +229,28 @@ main {
   width: 520px;
   text-align: left;
   padding-top: 80px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
 }
 #cover img {
   padding: 0;
   margin: 0;
   height: auto;
-  width: 100%;
+  width: auto;
   max-width: 95%;
-  object-fit: cover;
+  object-fit: contain;
 }
 @media only screen and (max-width: 800px) {
   #cover {
-    margin-top: -1.5em;
+    margin-top: -2em;
     width: 100%;
     text-align: center;
     height: 66vh;
   }
   #cover img {
-    height: 100%;
+    height: auto;
+    width: auto;
     max-width: 90%;
     max-height: 100%;
   }
@@ -366,6 +370,8 @@ main {
     max-width: none;
     height: auto;
     max-height: calc(100vh - 66vh - 90px);
+    padding-bottom: 1em;
+    box-sizing: border-box;
   }
 }
 
