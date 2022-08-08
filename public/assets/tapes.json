@@ -276,8 +276,28 @@
     "label": "Plaka Pilipino",
     "year": 1973,
     "decade": 1970,
-    "genre": "Pop",
+    "genre": "Folk",
     "discogs": "https://www.discogs.com/release/19602694-Ric-Manrique-Jr-Awit-At-Pag-Ibig"
+  },
+  "ric-02": {
+    "cid": "ric-02",
+    "artist": "Ric Manrique Jr.",
+    "title": "Dama De Noche",
+    "label": "Villar",
+    "year": "1990s",
+    "decade": 1990,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/13445300-Ric-Manrique-Jr-Dama-De-Noche"
+  },
+  "ric-03": {
+    "cid": "ric-03",
+    "artist": "Ric Manrique Jr.",
+    "title": "D'Yos Lamang Ang Nakakaalam",
+    "label": "Villar",
+    "year": 1971,
+    "decade": 1990,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/23080301-Ric-Manrique-Jr-DYos-Lamang-Ang-Nakakaalam"
   },
   "fre-01": {
     "cid": "fre-01",
@@ -638,5 +658,85 @@
     "decade": 1980,
     "genre": "Children's",
     "discogs": null
+  },
+  "bmbo-01": {
+    "cid": "bmbo-01",
+    "artist": "Wolfgang Oehms",
+    "title": "The Bamboo Organ Of Las Piñas, Metro-Manila Philippines",
+    "label": "None",
+    "year": 1976,
+    "decade": 1970,
+    "genre": "Classical",
+    "discogs": "https://www.discogs.com/release/15246884-Wolfgang-Oehms-The-Bamboo-Organ-Of-Las-Pi%C3%B1as-Metro-Manila-Philippines"
+  },
+  "bmbo-02": {
+    "cid": "bmbo-02",
+    "artist": "Armando Salarza / Manuel Maramba / Guy Bovet / Theo Mertens Brass Quintet",
+    "title": "Popular Filipino Tunes At The Bamboo Organ Of Las Piñas, Philippines",
+    "label": "None",
+    "year": null,
+    "decade": null,
+    "genre": "Classical",
+    "discogs": "https://www.discogs.com/release/11019407-Armando-Salarza-Manuel-Maramba-Guy-Bovet-Theo-Mertens-Brass-Quintet-Popular-Filipino-Tunes-At-The-Ba"
+  },
+  "where": {
+    "cid": "where",
+    "artist": "Various",
+    "title": "Philippines: Where Do We Go From Here?",
+    "label": "Twisted Red Cross",
+    "year": 1989,
+    "decade": 1980,
+    "genre": "Punk",
+    "discogs": "https://www.discogs.com/release/3739029-Various-Philippines-Where-Do-We-Go-From-Here"
+  },
+  "freedom": {
+    "cid": "freedom",
+    "artist": "Jess Santiago, Paul Galang, Susan Fernandez",
+    "title": "Philippines - Songs For Freedom",
+    "label": "PARUD-Freundeskreis E.V.",
+    "year": 1985,
+    "decade": 1980,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/10490367-Jess-Santiago-Paul-Galang-Susan-Fernandez-Philippines-Songs-For-Freedom"
+  },
+  "kundiman": {
+    "cid": "kundiman",
+    "artist": "Conching Rosal",
+    "title": "Immortal Kundiman Of The Philippines",
+    "label": "Villar",
+    "year": 2003,
+    "decade": 2000,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/19673317-Conching-Rosal-Immortal-Kundiman-Of-The-Philippines"
+  },
+  "ruben": {
+    "cid": "ruben",
+    "artist": "Ruben Tagalog",
+    "title": "Harana Ni Ruben Tagalog",
+    "label": "Villar",
+    "year": 1970,
+    "decade": 1970,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/12747021-Ruben-Tagalog-Harana-Ni-Ruben-Tagalog"
+  },
+  "juans-01": {
+    "cid": "juans-01",
+    "artist": "Juan Silos, Jr. And His Rondalla",
+    "title": "Philippine Folk Dances",
+    "label": "Villar",
+    "year": 1970,
+    "decade": 1970,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/10946777-Juan-Silos-Jr-And-His-Rondalla-Philippine-Folk-Dances-"
+  },
+  "relly": {
+    "cid": "relly",
+    "artist": "Relly Coloma",
+    "title": "Balut",
+    "label": "Villar",
+    "year": 1970,
+    "decade": null,
+    "genre": "Folk",
+    "discogs": "https://www.discogs.com/release/20571214-Relly-Coloma-Balut"
   }
 }

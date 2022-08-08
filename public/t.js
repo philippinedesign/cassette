@@ -20,14 +20,9 @@ showIndex.output = async (element) => {
     data = Object.values(data);
   }
 
-  console.log(data);
 
   const replacement = data.map((object) => {
-
-    //    console.log(object);
-
     Object.keys(object).forEach((k) => {
-      //      console.log(object[k.trim()]);
       object[k.trim()] = object[k];
     });
 
@@ -65,4 +60,147 @@ $(function () {
   showIndex.render();
   //  console.log("done");
 
+});
+
+
+// scroll handler
+const isVisible = function (ele, container) {
+  const eleTop = ele.offsetTop;
+  const eleBottom = eleTop + ele.clientHeight;
+
+  const containerTop = container.scrollTop;
+  const containerBottom = containerTop + container.clientHeight;
+
+  // The element is fully visible in the container
+  return (
+    (eleTop >= containerTop && eleBottom <= containerBottom) ||
+    // Some part of the element is visible in the container
+    (eleTop < containerTop && containerTop < eleBottom) ||
+    (eleTop < containerBottom && containerBottom < eleBottom)
+  );
+};
+
+// tooltips
+$(function () {
+  $(document).tooltip({
+    track: true,
+    tooltipClass: "tooltip"
+  });
+});
+
+// view
+$(".control-displaytype button[data-control='big']").click(function () {
+  $(".control-displaytype button[data-control='big']").css("opacity", 1);
+  $(".control-displaytype button[data-control='smol']").css("opacity", 0.5);
+  $(".tape-wrapper-smol").fadeOut();
+});
+
+$(".control-displaytype button[data-control='smol']").click(function () {
+  $(".control-displaytype button[data-control='smol']").css("opacity", 1);
+  $(".control-displaytype button[data-control='big']").css("opacity", 0.5);
+  $(".tape-wrapper-smol").fadeIn();
+});
+
+// about
+
+$(".info button[data-what='info']").click(function () {
+  $("#about").fadeToggle();
+
+});
+
+
+function checkFilters() {
+
+  $("#header #all").prop("checked", false);
+  let tapes = $("#index .tape-only a");
+  let vals_decade = [];
+  let vals_genre = [];
+  let ctrls_decade = $(".control-decade input[name='decade']:checked");
+  let ctrls_genre = $(".control-genre input[name='genre']:checked");
+  let selectors = "";
+
+  for (var i = 0; i < ctrls_decade.length; i++) {
+    vals_decade.push(ctrls_decade[i].value)
+    selectors += "[data-decade='" + ctrls_decade[i].value + "']";
+  }
+
+
+  for (var i = 0; i < ctrls_genre.length; i++) {
+    let v = ctrls_genre[i].value;
+    v = v[0].toUpperCase() + v.substring(1);
+    vals_genre.push(v);
+    selectors += "[data-genre='" + v + "']";
+  }
+
+  $("#index .tape-only a").hide();
+  $("#index .tape-only a" + selectors).show();
+
+  $("#index .tape-only").animate({
+    scrollLeft: 0
+  });
+}
+
+// filters
+
+$("#header .header-controls  #all").change(function () {
+
+  if (!$(this).is(':checked')) {
+    return;
+  }
+
+  $("#index .tape-only a").show();
+  $(this).prop("checked", true);
+  $('#header .header-controls div  input:checkbox').prop("checked", false);
+});
+
+$(".control-decade input").change(function () {
+
+  if ($(".control-decade input:checked").length > 1) {
+    let v = $(this).val();
+    $(".control-decade input:not([value='" + v + "'])").prop("checked", false);
+  }
+
+  checkFilters();
+})
+
+$(".control-genre input").change(function () {
+
+  if ($(".control-genre input:checked").length > 1) {
+    let v = $(this).val();
+    $(".control-genre input:not([value='" + v + "'])").prop("checked", false);
+  }
+
+  checkFilters();
+})
+
+//    $(document).on('dblclick', '#header input', function() {
+// if (this.checked) {
+// $(this).prop('checked', false);
+//
+// $("#index .tape-only a[data-decade='" + v + "']").show();
+// $("#index .tape-only a[data-genre='" + v + "']").show();
+// }
+// });
+
+function scrolltoTape(what) {
+
+  $f = "a[data-id='" + what + "']";
+
+  //      $(".tape-only").scrollTo($($f).offset().left - 100);
+
+  if (!isVisible($(what), $(".tape-only"))) {
+    $(".tape-only").animate({
+      scrollLeft: $($f).offset().left - 100
+    }, 900);
+  }
+
+  $(".tape-only a").css("opacity", 0.8).css("filter", "grayscale(80%)");
+  $($f).css("opacity", 1).css("filter", "grayscale(0)");
+
+}
+
+$(".tape-wrapper").on("click", "div", function (event) {
+  //      alert("lol");
+  let go = $(this).attr("data-id");
+  scrolltoTape(go);
 });
