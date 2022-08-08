@@ -308,9 +308,18 @@ main {
     justify-content: space-between;
   }
 }
-#content ._year,
-#content ._label {
+#content .__year,
+#content .__label {
   display: inline-block;
+}
+#content .__year:before {
+  content: "YEAR: ";
+}
+#content .__genre:before {
+  content: "GENRE: ";
+}
+#content .__label:before {
+  content: "LABEL: ";
 }
 #content ._links {
   padding: 0.15em 0;
@@ -375,8 +384,8 @@ main {
     max-width: none;
     height: auto;
     max-height: calc(100vh - 66vh - 90px);
-    padding-bottom: 1em;
     box-sizing: border-box;
+    padding-bottom: 0.5em;
   }
 }
 

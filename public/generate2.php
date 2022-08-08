@@ -98,6 +98,7 @@
         ':stitle' => $i['title'],
         ':label' => $i['label'],
         ':year' => $i['year'],
+        ':genre' => $i['genre'],
         ':discogs' => $i['discogs'],
         ':stream' => $i['stream'],
         ':images_cover' => '<img data-zoom-image alt="'.$i["artist"].' - '.$i['title'].'" title="'.$i["artist"].' - '.$i['title'].'" src="'.$img_url.'">',

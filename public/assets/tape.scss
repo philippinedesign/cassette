@@ -356,9 +356,21 @@ main {
   }
 
 
-  ._year,
-  ._label {
+  .__year,
+  .__label {
     display: inline-block;
+  }
+
+  .__year:before {
+    content: "YEAR: ";
+  }
+
+  .__genre:before {
+    content: "GENRE: ";
+  }
+
+  .__label:before {
+    content: "LABEL: ";
   }
 
   ._links {
@@ -433,8 +445,8 @@ main {
         max-width: none;
         height: auto;
         max-height: calc(100vh - 66vh - 90px);
-        padding-bottom: 1em;
         box-sizing: border-box;
+        padding-bottom: .5em;
       }
     }
 
