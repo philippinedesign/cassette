@@ -122,9 +122,9 @@ body {
 
 // ABOUT
 #about {
-  position: absolute;
-  height: calc(100vh - 50px);
-  top: 50px;
+  position: fixed;
+  height: calc(100% - 55px);
+  bottom: 0;
   width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -156,8 +156,11 @@ body {
 
   @media only screen and (max-width: 800px) {
 
-    padding: 0 2.5vw;
+    height: calc(100% - 55px);
+    box-sizing: border-box;
+    padding: 0 1em;
     padding-bottom: 5vh;
+    //    padding-top: 5vh;
   }
 
 }
@@ -422,8 +425,9 @@ main {
 
     img {
       vertical-align: text-top;
-      max-height: 300px;
-      max-width: 50%;
+      height: auto;
+      width: auto;
+      max-height: 100%;
     }
 
     @media only screen and (max-width: 800px) {

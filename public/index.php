@@ -88,7 +88,7 @@
 
     <div id="about">
       <h1>About the Philippine Cassette Archive</h1>
-      <p>The Philippine Cassette Archive is a digital collection of cassette tapes, a glimpse into Pinoy tape culture. philippinecassettearchive.com<br><br>Launched in August 2022 under the <a href="https://philippine.design" target="_blank">philippine.design</a> project, the collection currently focuses on graphic design, packaging, and visuals. Materials on launch are largely taken from Discogs. We later hope to expand on collecting cassettes from small labels, locally-produced bootlegs, and in collecting newer (post-2010s) artifacts by contemporary Filipino musicians & artist collectives.</p>
+      <p>The Philippine Cassette Archive is a digital collection of cassette tapes, a glimpse into Pinoy tape culture.<br><br>Launched in August 2022 under the <a href="https://philippine.design" target="_blank">philippine.design</a> project, the collection currently focuses on graphic design, packaging, and visuals. Materials on launch are largely taken from Discogs. We later hope to expand on collecting cassettes from small labels, locally-produced bootlegs, and in collecting newer (post-2010s) artifacts by contemporary Filipino musicians & artist collectives.</p>
 
 
       <h1>Submit a tape</h1>

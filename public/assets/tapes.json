@@ -8,7 +8,7 @@
     "decade": 1990,
     "genre": "Rock",
     "discogs": "https://www.discogs.com/release/6156373-Eraserheads-Ultraelectromagneticpop",
-    "stream": "https://open.spotify.com/album/0HDclsvr13EmV3DBMSVWPX?si=ma8AmxSBREi7CfDb2Fk0yA"
+    "stream": "https://www.discogs.com/release/6156373-Eraserheads-Ultraelectromagneticpop"
   },
   "eraserheads-02": {
     "cid": "eraserheads-02",
@@ -74,7 +74,7 @@
     "decade": 2000,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/17360449-Lea-Salonga-By-Heart-",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=yJ9jUsVKZKs"
   },
   "ls-03": {
     "cid": "ls-03",
@@ -85,7 +85,7 @@
     "decade": 1990,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/17359780-Lea-Salonga-In-Love-",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=g4oxZvekrRQ"
   },
   "zsa-01": {
     "cid": "zsa-01",
@@ -107,7 +107,7 @@
     "decade": 1980,
     "genre": "Soul",
     "discogs": "https://www.discogs.com/release/12594917-Apo-Hiking-Society-Apo-Hiking-Society",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=SARJAexsGlo"
   },
   "apo-02": {
     "cid": "apo-02",
@@ -228,7 +228,7 @@
     "decade": 1980,
     "genre": "Punk",
     "discogs": "https://www.discogs.com/release/3398236-Wuds-Arms-Talk",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=8w2ARJOG_98"
   },
   "wuds-02": {
     "cid": "wuds-02",
@@ -239,7 +239,7 @@
     "decade": 1990,
     "genre": "Punk",
     "discogs": "https://www.discogs.com/release/5062385-Wuds-Oplan-Kahon",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=6I_w_PHlfcM"
   },
   "tonedef-01": {
     "cid": "tonedef-01",
@@ -250,7 +250,7 @@
     "decade": 1990,
     "genre": "Punk",
     "discogs": "https://www.discogs.com/release/7385973-Various-Tone-Def-Volume-2-Rock-Revolution",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=Sq6cx820wCM"
   },
   "cherries-01": {
     "cid": "cherries-01",
@@ -283,7 +283,7 @@
     "decade": 2000,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/15476709-Jessa-Zaragoza-The-Best-Of-Jessa-Zaragoza",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=u5K06X2Z9Qw"
   },
   "sunshine-01": {
     "cid": "sunshine-01",
@@ -316,7 +316,7 @@
     "decade": 1990,
     "genre": "Folk",
     "discogs": "https://www.discogs.com/release/13445300-Ric-Manrique-Jr-Dama-De-Noche",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=X9j0x-6HtCA"
   },
   "ric-03": {
     "cid": "ric-03",
@@ -349,7 +349,7 @@
     "decade": 1980,
     "genre": "Folk",
     "discogs": "https://www.discogs.com/release/13881532-Freddie-Aguilar-Katarungan",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=KvllMZrtu7E"
   },
   "cely-01": {
     "cid": "cely-01",
@@ -426,7 +426,7 @@
     "decade": 1970,
     "genre": "Rock",
     "discogs": "https://www.discogs.com/release/4597629-Juan-De-La-Cruz-Band-Kahit-Anong-Mangyari",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=FyOM3XUlim8"
   },
   "asin-01": {
     "cid": "asin-01",
@@ -437,7 +437,7 @@
     "decade": 1980,
     "genre": "Rock",
     "discogs": "https://www.discogs.com/release/13864058-Asin-Himig-Kayumanggi",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=TXfBA54xkkk"
   },
   "asin-02": {
     "cid": "asin-02",
@@ -536,7 +536,7 @@
     "decade": 1970,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/13854631-Rico-J-Puno-Tatak",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=I1XyGTyfp1I"
   },
   "timmy-01": {
     "cid": "timmy-01",
@@ -558,7 +558,7 @@
     "decade": 1970,
     "genre": "Jazz",
     "discogs": "https://www.discogs.com/release/11691616-Bong-Pe%C3%B1era-Bong-Penera",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=Pod5ehboso0"
   },
   "basil-01": {
     "cid": "basil-01",
@@ -569,7 +569,7 @@
     "decade": 1980,
     "genre": "Pop",
     "discogs": "https://www.discogs.com/release/19428565-Basil-Valdez-Corner-Of-The-Sky",
-    "stream": null
+    "stream": "https://open.spotify.com/album/0tFSd8IINP0wmVWYUrCQsR"
   },
   "hit-01": {
     "cid": "hit-01",
@@ -624,7 +624,7 @@
     "decade": 1980,
     "genre": "Folk",
     "discogs": "https://www.discogs.com/release/21460624-Max-Surban-Mad-Max-Kuno",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=UY9sTA51Xag"
   },
   "mrt-01": {
     "cid": "mrt-01",
@@ -635,7 +635,7 @@
     "decade": 1980,
     "genre": "Funk",
     "discogs": "https://www.discogs.com/release/12594959-Martin-Nievera-The-Best-Gift",
-    "stream": null
+    "stream": "https://www.youtube.com/watch?v=umYo9-ilxOk"
   },
   "jam-01": {
     "cid": "jam-01",

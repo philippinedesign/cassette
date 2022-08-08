@@ -96,7 +96,7 @@ body {
 }
 #about {
   position: absolute;
-  height: calc(100vh - 80px);
+  height: calc(100% - 80px);
   bottom: 0;
   width: 100%;
   overflow-x: hidden;
@@ -125,7 +125,7 @@ body {
 @media only screen and (max-width: 800px) {
   #about {
     padding: 0 2.5vw;
-    padding-top: 35px;
+    padding-top: 1em;
     padding-bottom: 5vh;
   }
 }
