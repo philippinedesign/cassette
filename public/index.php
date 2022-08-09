@@ -119,8 +119,8 @@
             <div class="_year">{{year}}</div>
             <img src=./tapes/tapes/{{cid}}-cover.jpg>
             <div class="info">
-              {{title}}<br>
-              {{artist}}
+              {{artist}}<br>
+              {{title}}
             </div>
           </a>
         </div>

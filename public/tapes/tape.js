@@ -12,8 +12,6 @@ $(".info button[data-what='ig']").click(function () {
 
 
 
-
-
 $(function () {
   // tooltips
   $(document).tooltip({

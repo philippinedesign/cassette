@@ -241,6 +241,11 @@ body {
     text-overflow: ellipsis;
     max-width: 80vw;
 
+
+    span span._stitle {
+      font-weight: strong;
+    }
+
   }
 }
 

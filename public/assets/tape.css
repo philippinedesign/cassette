@@ -200,6 +200,9 @@ body {
   text-overflow: ellipsis;
   max-width: 80vw;
 }
+#title-about h1 span span._stitle {
+  font-weight: strong;
+}
 
 .top-wrapper:hover h1 span {
   display: none;
