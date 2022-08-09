@@ -2,6 +2,16 @@ $(".info button[data-what='info']").click(function () {
   $("#about").fadeToggle();
 });
 
+$(".info button[data-what='fb']").click(function () {
+  window.open("https://www.facebook.com/Philippine-Cassette-Archive-107292395417537");
+});
+
+$(".info button[data-what='ig']").click(function () {
+  window.open("https://www.instagram.com/philippinecassettes");
+});
+
+
+
 
 
 $(function () {

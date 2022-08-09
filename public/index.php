@@ -9,7 +9,7 @@
   <meta charset="UTF-8" />
 
 
-  <meta name="description" content="The Philippine Cassette Archive is an initiative by Developh to archive & celebrating Pinoy cassette culture.">
+  <meta name="description" content="The Philippine Cassette Archive celebrates & preserves Pinoy tape culture.">
 
 
   <!-- Open Graph / Facebook -->
