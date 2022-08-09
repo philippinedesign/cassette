@@ -457,4 +457,10 @@ main {
 
   }
 
+  @media only screen and (min-width: 800px) {
+    .images img:first-child {
+      display: none;
+    }
+  }
+
 }
