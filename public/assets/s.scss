@@ -201,6 +201,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
+  @media only screen and (max-width: 800px) {
+    font-size: 1.2rem;
+    }
+    
   }
 
   @media only screen and (max-width: 800px) {
@@ -380,7 +385,7 @@ $height_tapes: 77vh;
   box-sizing: border-box;
   overflow: hidden;
   background: rgb(238, 237, 233);
-  background: linear-gradient(180deg, rgba(39, 0, 255, 0.8) 0%, rgba(0, 0, 255, 0.2) 60%, rgba(0, 59, 255, 0) 100%);
+  background: linear-gradient(180deg, rgba(58, 217, 255, 0.8) 0%, rgba(0, 216, 255, 0.2) 60%, rgba(0, 59, 255, 0) 100%);
   @media only screen and (max-width: 800px) {
     padding: 0;
     height: 120px;
@@ -473,14 +478,13 @@ $height_tapes: 77vh;
         position: relative;
         box-sizing: border-box;
         margin: .25em;
-        width: 120px;
-        height: 236px;
-        transform: scale(0.9);
+        width: 108px;
+        height: 237px;
         //        border: 1px solid #000;
         display: inline-block;
         text-decoration: none;
         color: #000;
-
+        
 
         .info {
           margin: 0;
