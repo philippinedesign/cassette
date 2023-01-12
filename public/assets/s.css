@@ -301,7 +301,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   background: #eeede9;
-  background: linear-gradient(180deg, #eeede9 0%, rgba(238, 237, 233, 0.5) 80%, rgba(238, 237, 233, 0) 100%);
+  background: linear-gradient(180deg, rgba(39, 0, 255, 0.8) 0%, rgba(0, 0, 255, 0.2) 60%, rgba(0, 59, 255, 0) 100%);
 }
 @media only screen and (max-width: 800px) {
   .top-wrapper {
@@ -416,7 +416,7 @@ body {
   opacity: 0.6;
 }
 #index .tape-wrapper-smol .tape-only img {
-  background: lightgray;
+  background: #2700ff;
   max-height: 188px;
 }
 #index .tape-wrapper-smol .tape-only ._year {

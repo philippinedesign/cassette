@@ -8,8 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
 
+<!--
 
-  <meta name="description" content="The Philippine Cassette Archive celebrates & preserves Pinoy tape culture.">
+
+      CHIA AMISOLA
+      https://chias.website
+
+      DEVELOPH
+      https://developh.org
+        
+
+-->
+  
+  <meta name="description" content="The Philippine Cassette Archive celebrates & preserves Pinoy tape culture. Made by Chia Amisola.">
 
 
   <!-- Open Graph / Facebook -->
@@ -49,7 +60,10 @@
 
     <div class="top-wrapper">
       <div id="title-about">
-        <h1>Philippine Cassette Archive</h1>
+        <h1>
+          <span>Philippine</span> 
+          <span>Cassette</span> 
+          <span>Archive</span> </h1>
       </div>
       <div id="header">
         <div class="header-controls">
