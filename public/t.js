@@ -57,10 +57,8 @@ showIndex.render = async () => {
 
 $(function () {
 
-
   showIndex.render();
   //  console.log("done");
-
 
   // not the first time?
   if (window.localStorage.getItem('washere') === 'true') {
