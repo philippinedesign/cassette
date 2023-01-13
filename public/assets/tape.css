@@ -20,12 +20,10 @@ body {
   font-size: 0.9em;
   font-family: ibm-plex-mono, sans-serif;
   background: #fff;
-  overflow: hidden;
 }
 @media only screen and (max-width: 800px) {
   body {
     font-size: 0.8em;
-    overflow-y: hidden;
   }
 }
 
@@ -137,7 +135,7 @@ body {
 .top-wrapper {
   position: fixed;
   z-index: 99;
-  height: 90px;
+  height: 160px;
   width: 100%;
   top: 0;
   left: 0;
@@ -146,8 +144,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   background: #eeede9;
-  background: linear-gradient(180deg, #000aff 0%, rgba(0, 10, 255, 0.5) 80%, rgba(0, 10, 255, 0) 100%);
-  display: flex;
+  background: linear-gradient(180deg, white 0%, white 87%, white 100%);
 }
 .top-wrapper button {
   font-family: ibm-plex-mono, sans-serif;
@@ -163,12 +160,18 @@ body {
   transition: all 0.15s ease-in-out;
 }
 .top-wrapper .info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1em;
+  opacity: 0.8;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
   flex-direction: column;
   cursor: ne-resize;
+  display: none;
 }
 .top-wrapper .info:hover > button:not(:hover) {
   opacity: 0.6;
@@ -194,11 +197,12 @@ body {
   line-height: 100%;
   margin: 0;
   padding: 0;
+  font-size: 2.25rem;
   font-weight: normal;
   text-transform: uppercase;
   cursor: w-resize;
   text-overflow: ellipsis;
-  max-width: 80vw;
+  text-align: center;
 }
 #title-about h1 span span._stitle {
   font-weight: strong;
@@ -209,51 +213,47 @@ body {
 }
 
 .top-wrapper:hover h1:before {
+  position: relative;
+  padding-top: 0.5em;
+  display: inline-block;
   content: "Philippine Cassette Archive";
 }
 
 main {
   width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
 }
 @media only screen and (max-width: 800px) {
   main {
-    max-height: 100%;
-    overflow-y: hidden;
     display: block;
   }
 }
 
 #cover {
-  padding: 0 2.5vw;
-  width: 520px;
-  text-align: left;
-  padding-top: 80px;
-  display: flex;
-  justify-content: flex-start;
+  padding: 0 5vw;
+  width: 100%;
+  height: 80%;
+  max-height: calc(90vh - 150px);
+  text-align: center;
+  padding-top: 100px;
   vertical-align: text-top;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  object-fit: contain;
+  margin-top: 2em;
 }
 #cover img {
   padding: 0;
-  margin: 0;
-  height: auto;
-  width: auto;
-  max-width: 95%;
-  object-fit: contain;
+  margin: 0 auto;
+  display: inline-block;
 }
 @media only screen and (max-width: 800px) {
   #cover {
-    margin-top: -2em;
+    margin-top: -0.5em;
     width: 100%;
     text-align: center;
-    height: 66vh;
+    height: 88vh;
     justify-content: center;
     vertical-align: middle;
   }
@@ -268,19 +268,14 @@ main {
 
 #content {
   width: 100%;
-  height: 100%;
-  padding-top: 80px;
-  overflow-y: scroll;
-  padding-right: 2.5vw;
+  height: auto;
   padding-bottom: 5vh;
+  padding-top: 2.5vh;
 }
 @media only screen and (max-width: 800px) {
   #content {
     padding: 0.5em 2.5vw;
     text-align: center;
-    width: 100%;
-    height: auto;
-    overflow-y: hidden;
   }
 }
 #content ._links:hover > a:not(:hover) {
@@ -293,7 +288,6 @@ main {
   border-bottom: 1px solid #000;
 }
 #content ._metadata {
-  border-top: 1px solid #000;
   padding-top: 0.5em;
 }
 #content ._metadata,
@@ -301,28 +295,19 @@ main {
   font-size: 0.9em;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  max-width: 450px;
 }
-#content ._links {
-  justify-content: flex-start;
+#content ._metadata div,
+#content ._links div {
+  margin: 0 0.5em;
 }
-@media only screen and (max-width: 800px) {
-  #content ._links {
-    justify-content: space-between;
-  }
+#content ._links a {
+  margin: 0 0.5em;
 }
 #content .__year,
 #content .__label {
   display: inline-block;
-}
-#content .__year:before {
-  content: "YEAR: ";
-}
-#content .__genre:before {
-  content: "GENRE: ";
-}
-#content .__label:before {
-  content: "LABEL: ";
 }
 #content ._links {
   padding: 0.15em 0;
@@ -359,7 +344,6 @@ main {
   justify-content: center;
   vertical-align: text-top;
   padding-top: 0.5em;
-  border-top: 1px solid #000;
   margin-top: 1em;
 }
 #content .images img {
@@ -370,7 +354,6 @@ main {
 }
 @media only screen and (max-width: 800px) {
   #content .images {
-    border-top: 1px solid #000;
     margin-top: 0.5em;
     flex-wrap: nowrap;
     white-space: nowrap;
