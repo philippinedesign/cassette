@@ -38,12 +38,14 @@
 
 <body>
 
+<!--
   <div id="loader">
     <div class="_loading">
       <img src="philippine-cassette-archive.svg">
       <span>Loading the Philippine Cassette Archive...</span>
     </div>
   </div>
+-->
 
   <div id="index-wrapper">
 
@@ -82,7 +84,7 @@
 
         <div class="info">
           <button data-what="info">About</button>
-          <button data-what="fb">FB</button>
+          <button data-what="fb">♡</button>
           <button data-what="ig">IG</button>
           <button></button>
         </div>
@@ -113,7 +115,7 @@
     <div id="index">
       <div class="tape-wrapper-smol">
         <div class="tape-only" data-spreadsheet-api="./assets/tapes.json">
-          <a href="./tapes/{{cid}}" data-id='{{cid}}' data-decade='{{decade}}' data-genre='{{genre}}' class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}">
+          <a tape href="./tapes/{{cid}}" data-id='{{cid}}' data-decade='{{decade}}' data-genre='{{genre}}' class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}">
             <div class="_year">{{year}}</div>
             <img src=./tapes/tapes/{{cid}}-cover.jpg>
             <div class="info">
@@ -126,7 +128,7 @@
 
       <div class="tape-wrapper">
         <div class="tape-only" data-spreadsheet-api="./assets/tapes.json">
-          <a href="./tapes/{{cid}}.html" data-id='{{cid}}' data-decade='{{decade}}' data-genre='{{genre}}' class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}">
+          <a tape href="./tapes/{{cid}}.html" data-id='{{cid}}' data-decade='{{decade}}' data-genre='{{genre}}' class="tape-cover" title="{{artist}} - {{title}} ({{year}}) released by {{label}}, {{genre}}">
             <img src=./tapes/tapes/{{cid}}-cover.jpg>
           </a>
         </div>

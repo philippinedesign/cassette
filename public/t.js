@@ -57,17 +57,42 @@ showIndex.render = async () => {
 
 $(function () {
 
+  
+  $(".tape-only").on('DOMNodeInserted', 'a', function(){
+        $(".tape-only a")
+          .css("opacity", 1)
+          .css("filter", "blur(0)");
+    
+     $("img").on("load", function() {
+    $(".tape-only img").css("opacity", 1);
+ })
+    
+  setTimeout(function(){
+    $(".tape-only img").css("opacity", 1);
+    
+  }, 500);
+  
+    
+})
+  
+  setTimeout(function(){
+    console.log("~");
+     $("a").on('DOMNodeInserted', 'img', function(){
+    console.log("---");
+        $(this)
+          .css("opacity", 1);
+})
+  }, 100);
+  
+ 
   showIndex.render();
-  //  console.log("done");
+
+    console.log("done");
 
   // not the first time?
   if (window.localStorage.getItem('washere') === 'true') {
     $("#loader").delay(300).fadeOut(300);
-    //    console.log("been here");
-    console.log("o.o");
-
   } else {
-    console.log("..");
     window.localStorage.setItem('washere', 'true');
   }
 
@@ -119,11 +144,11 @@ $(".info button[data-what='info']").click(function () {
 });
 
 $(".info button[data-what='fb']").click(function () {
-  window.open("https://www.facebook.com/Philippine-Cassette-Archive-107292395417537");
+  window.open("https://chias.website");
 });
 
 $(".info button[data-what='ig']").click(function () {
-  window.open("https://www.instagram.com/philippinecassettes");
+  window.open("https://www.instagram.com/philippineinternetarchive");
 });
 
 

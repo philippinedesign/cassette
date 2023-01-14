@@ -270,7 +270,7 @@ main {
   width: 100%;
   height: auto;
   padding-bottom: 5vh;
-  padding-top: 2.5vh;
+  padding-top: 5vh;
 }
 @media only screen and (max-width: 800px) {
   #content {
