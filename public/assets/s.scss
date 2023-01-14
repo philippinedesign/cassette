@@ -487,7 +487,7 @@ $height_tapes: 77vh;
         filter: blur(5px);
         opacity: 0.2;
         color: #000;
-        transition: all ease-out 1250ms;
+        transition: all ease-in 200ms, opacity ease-out 1250ms;
         
       @media only screen and (max-width: 800px) {
         width: 108px;
@@ -514,7 +514,7 @@ $height_tapes: 77vh;
         width: 100%;
         height: 196px;
         opacity: 0.1;
-        transition: all ease-in-out 3s;
+        transition: all ease-in-out 500ms;
         
       @media only screen and (max-width: 800px) {
         height: 170px;

@@ -99,14 +99,13 @@ $(function () {
 });
 
 
-
-// tooltips
-$(function () {
-  $(document).tooltip({
-    track: true,
-    tooltipClass: "tooltip"
-  });
-});
+//// tooltips
+//$(function () {
+//  $(document).tooltip({
+//    track: true,
+//    tooltipClass: "tooltip"
+//  });
+//});
 
 // view
 $(".control-displaytype button[data-control='big']").click(function () {
