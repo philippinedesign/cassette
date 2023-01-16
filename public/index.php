@@ -118,12 +118,11 @@
       <h1>Find us</h1>
       <div class="links">
         <a href="https://developh.org" target="_blank">Developh</a>
-        <a href="https://www.facebook.com/Philippine-Cassette-Archive-107292395417537" target="_blank">Philippine Cassette Archive on Facebook</a>
-        <a href="https://www.instagram.com/philippinecassettes" target="_blank">@philippinecassettes on Instagram</a>
+        <a href="https://www.instagram.com/philippineinternetarchive" target="_blank">@PhilippineInternetArchive on Instagram</a>
       </div>
       <br>
-      <h1>Contributors & Supporters</h1>
-      <p><a href="https://twitter.com/hotemogf">Chia (Founder)</a></p>
+      <h1>People</h1>
+      <p>The Philippine Cassette Archive and the Philippine Internet Archive  is founded, developed, and maintained by <a href="https://chias.website">Chia Amisola</a>. <a href="https://twitter.com/hotemogf" target="_blank">(Twitter: hotemogf)</a>   <a href="https://instagram.com/hotemogf" target="_blank">(Instagram: hotemogf)</a>  </p>
     </div>
 
     <div id="index">

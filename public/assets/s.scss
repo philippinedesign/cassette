@@ -49,7 +49,7 @@ body {
 
   animation: seconds 1.0s forwards;
   animation-iteration-count: 1;
-  animation-delay: 3s;
+  animation-delay: 6s;
 
   //  display: none;
 
@@ -484,8 +484,8 @@ $height_tapes: 77vh;
         //        border: 1px solid #000;
         display: inline-block;
         text-decoration: none;
-        filter: blur(5px);
-        opacity: 0.2;
+//        filter: blur(5px);
+//        opacity: 0.2;
         color: #000;
         transition: all ease-in 200ms, opacity ease-out 1250ms;
         
@@ -513,7 +513,6 @@ $height_tapes: 77vh;
         display: block;
         width: 100%;
         height: 196px;
-        opacity: 0.1;
         transition: all ease-in-out 500ms;
         
       @media only screen and (max-width: 800px) {

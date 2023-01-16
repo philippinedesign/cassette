@@ -30,6 +30,8 @@ body {
 }
 
 
+  
+
 // LOADER
 #loader {
   position: fixed;
@@ -46,17 +48,18 @@ body {
   align-items: center;
 
 
-  animation: seconds .25s forwards;
+  animation: seconds 2s ease forwards;
   animation-iteration-count: 1;
   animation-delay: .25s;
 
   ._loading {
 
+    display: none;
     text-align: center;
     opacity: 1;
-    animation: seconds_logo .3s forwards;
+    animation: seconds_logo .5s ease-out forwards;
     animation-iteration-count: 1;
-    animation-delay: .2s;
+    animation-delay: .5s;
 
     img {
       margin: 0 auto;
@@ -69,16 +72,6 @@ body {
 }
 
 
-@-webkit-keyframes seconds_logo {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    pointer-events: none;
-    opacity: 1;
-  }
-}
 
 @keyframes seconds_logo {
   0% {
@@ -86,23 +79,11 @@ body {
   }
 
   100% {
-    opacity: 1;
-    pointer-events: none;
-  }
-}
-
-
-@-webkit-keyframes seconds {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
     opacity: 0;
     pointer-events: none;
-    bottom: -4009px;
   }
 }
+
 
 @keyframes seconds {
   0% {
@@ -112,7 +93,6 @@ body {
   100% {
     opacity: 0;
     pointer-events: none;
-    bottom: -4009px;
   }
 }
 
@@ -261,12 +241,15 @@ body {
   position: relative;
   padding-top: .5em;
   display: inline-block;
-  content: "Philippine Cassette Archive"
+  content: "Philippine Cassette Archive";
+    
+  @media only screen and (max-width: 800px) {
+    padding-top:0;
+  }
 }
 
 // CONTENT
 main {
-  width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -280,7 +263,9 @@ main {
 #cover {
   padding: 0 5vw;
   width: 100%;
+  max-width: 95vw;
   height: 80%;
+  min-height: 300px;
   max-height: calc(90vh - 150px);
   text-align: center;
   padding-top: 100px;
@@ -289,6 +274,9 @@ main {
   margin-top: 2em;
 
   img {
+    min-height: 300px;
+//    height: 100%;
+    height: calc(90vh - 180px);
     padding: 0;
     margin: 0 auto;
     display: inline-block;
@@ -306,7 +294,7 @@ main {
 
     img {
       margin: 0 auto;
-      height: auto;
+      height: 100%;
       width: auto;
       max-width: 90%;
       max-height: 100%;
@@ -317,12 +305,15 @@ main {
 #content {
 
   width: 100%;
+  max-width: 95vw;
   height: auto;
   padding-bottom: 5vh;
-  padding-top: 5vh;
+margin-top: 120px;
+  box-sizing: border-box;
 
   @media only screen and (max-width: 800px) {
-    padding: .5em 2.5vw;
+    margin-top: 40px;
+    padding: 0 2.5vw;
     text-align: center;
   }
 
@@ -345,21 +336,18 @@ main {
 
   ._metadata,
   ._links {
+    width: 100%;
     font-size: .9em;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    max-width: 450px;
-    
-    div{
-      margin: 0 .5em;
+    justify-content: space-between;
+    padding: 0 1em;
+  @media only screen and (max-width: 800px) {
+    font-size: .8em;
+    padding: 0;
     }
     
-  }
-
-  ._links {
-
-    a{
+    div{
       margin: 0 .5em;
     }
     
@@ -371,53 +359,51 @@ main {
     display: inline-block;
   }
 
+  
+  .__artist:before,.__year:before,.__genre:before,.__label:before, .__discogs:before, .__streaming:before {
+    font-size: .5rem;
+    position: absolute;
+    transform: translateY(-1.25em);
+  @media only screen and (max-width: 800px) {
+    font-size: .5rem;
+    }
+  }
+  
+  .__artist:before {
+    content: "ARTIST";
+  }
+
   .__year:before {
-//    content: "YEAR: ";
+    content: "YEAR";
   }
 
   .__genre:before {
-//    content: "GENRE: ";
+    content: "GENRE ";
   }
 
   .__label:before {
-//    content: "LABEL: ";
+    content: "LABEL ";
+  }
+  .__discogs:before {
+    content: "INFO ";
+  }
+  .__streaming:before {
+    content: "LISTEN ";
   }
 
-  ._links {
-    padding: .15em 0;
 
     a {
       text-decoration: none;
       color: #000;
-      padding: .25em .5em;
-      padding-bottom: .5em;
-      font-size: .9em;
-      border: 1px solid #000;
-      margin-right: .25em;
+      font-size: 1em;
       cursor: ne-resize;
-
       -webkit-transition: all .15s ease-in-out;
       transition: all .15s ease-in-out;
-    }
-
-    a.__discogs::before {
-      display: inline;
-      content: "↗ ";
-      font-size: .9em;
-      line-height: 80%;
-    }
-
-
-    a.__streaming::before {
-      content: "♪ ";
-      font-size: .9em;
-      line-height: 80%;
     }
 
     a[href=""] {
       display: none;
     }
-  }
 
   .images {
     display: flex;
@@ -425,7 +411,7 @@ main {
     justify-content: center;
     vertical-align: text-top;
     padding-top: .5em;
-    margin-top: 1em;
+    margin-top: 50px;
 
     img {
       vertical-align: text-top;
@@ -437,7 +423,7 @@ main {
     @media only screen and (max-width: 800px) {
 //      border-top: 1px solid #000;
 
-      margin-top: .5em;
+      margin-top: 1em;
       flex-wrap: nowrap;
       white-space: nowrap;
       text-align: center;
@@ -453,7 +439,7 @@ main {
         margin: auto;
         max-width: none;
         height: auto;
-        max-height: calc(100vh - 66vh - 90px);
+        max-height: calc(100vh - 70vh - 80px);
         box-sizing: border-box;
         padding-bottom: .5em;
       }
@@ -467,4 +453,16 @@ main {
     }
   }
 
+}
+
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

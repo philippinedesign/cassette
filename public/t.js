@@ -57,32 +57,32 @@ showIndex.render = async () => {
 
 $(function () {
 
-  
-  $(".tape-only").on('DOMNodeInserted', 'a', function(){
-        $(".tape-only a")
-          .css("opacity", 1)
-          .css("filter", "blur(0)");
-    
-     $("img").on("load", function() {
-    $(".tape-only img").css("opacity", 1);
- })
-    
-  setTimeout(function(){
-    $(".tape-only img").css("opacity", 1);
-    
-  }, 500);
-  
-    
-})
-  
-  setTimeout(function(){
-    console.log("~");
-     $("a").on('DOMNodeInserted', 'img', function(){
-    console.log("---");
-        $(this)
-          .css("opacity", 1);
-})
-  }, 100);
+
+//  $(".tape-only").on('DOMNodeInserted', 'a', function(){
+//        $(".tape-only a")
+//          .css("opacity", 1)
+//          .css("filter", "blur(0)");
+//    
+//     $("img").on("load", function() {
+//    $(".tape-only img").css("opacity", 1);
+// })
+//    
+//  setTimeout(function(){
+//    $(".tape-only img").css("opacity", 1);
+//    
+//  }, 500);
+//  
+//    
+//})
+//  
+//  setTimeout(function(){
+//    console.log("~");
+//     $("a").on('DOMNodeInserted', 'img', function(){
+//    console.log("---");
+//        $(this)
+//          .css("opacity", 1);
+//})
+//  }, 100);
   
  
   showIndex.render();
@@ -91,7 +91,8 @@ $(function () {
 
   // not the first time?
   if (window.localStorage.getItem('washere') === 'true') {
-    $("#loader").delay(300).fadeOut(300);
+    $("#loader").css("animation-delay", "1s");
+    $("#loader").fadeOut(300);
   } else {
     window.localStorage.setItem('washere', 'true');
   }
